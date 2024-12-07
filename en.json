@@ -19,6 +19,7 @@
     }
   },
   "platform": {
+    "BLUESKY": "Bluesky",
     "SPEEDRUNCOM": "speedrun.com",
     "MASTODON": "Mastodon",
     "TWITTER": "Twitter",

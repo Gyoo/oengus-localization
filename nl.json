@@ -1445,6 +1445,7 @@
         "CH": "Zwitserland"
     },
     "platform": {
+        "BLUESKY": "Bluesky",
         "PHONE": "Telefoonnummer",
         "EMAIL": "E-mail",
         "DISCORD": "Discord",

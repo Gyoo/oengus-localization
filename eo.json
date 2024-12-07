@@ -208,9 +208,10 @@
         "button": "Saluti"
     },
     "platform": {
+        "BLUESKY": "Bluesky",
         "MASTODON": "Mastodon",
         "SPEEDRUNCOM": "speedrun.com",
-        "TWITTER": "X",
+        "TWITTER": "Twitter/X",
         "INSTAGRAM": "Instagram",
         "EMAIL": "Retpoŝto",
         "YOUTUBE": "YouTube",

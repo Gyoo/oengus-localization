@@ -5,7 +5,16 @@
     "platform": {
         "PHONE": "Numer telefonu",
         "SPEEDRUNCOM": "speedrun.com",
-        "MASTODON": ""
+        "MASTODON": "Mastodon",
+        "DISCORD": "Discord",
+        "YOUTUBE": "YouTube",
+        "TWITTER": "Twitter",
+        "TWITCH": "Twitch",
+        "FACEBOOK": "Facebook",
+        "INSTAGRAM": "Instagram",
+        "SNAPCHAT": "Snapchat",
+        "NICO": "Nico",
+        "EMAIL": "E-mail"
     },
     "aboutPage": {
         "contact": {
@@ -33,7 +42,16 @@
             },
             "children": {
                 "title": "Informacje dotyczące dzieci",
-                "par1": "Dużą częścią naszego priorytetu jest ochrona dzieci podczas korzystania z Internetu. Zachęcamy rodziców i opiekunów do obserwowania, uczestnictwa i/lub monitorowania ich działaniami w sieci."
+                "par1": "Dużą częścią naszego priorytetu jest ochrona dzieci podczas korzystania z Internetu. Zachęcamy rodziców i opiekunów do obserwowania, uczestnictwa i/lub monitorowania ich działaniami w sieci.",
+                "par2": "Oengus świadomie nie zbiera danych osobowych od dzieci poniżej 13-ego roku życia. Jeżeli myślisz, że twoje dziecko dodało takie informacje na naszej stronie, bardzo cię prosimy o niezwłoczny kontakt i zrobimy co możemy aby usunąć takie dane z naszej bazy danych."
+            },
+            "online": {
+                "title": "Polityka Prywatności Online",
+                "par1": "Polityka Prywatności ma zastosowanie tylko do naszej aktywności w sieci i jest ważna dla odwiedzających naszą stronę internetową w odniesieniu do informacji, które udostępniają i/lub gromadzą w Oengus. Ta polityka nie ma zastosowania do żadnych informacji zebranych offline lub przy użyciu kanałów innych niż nasza strona."
+            },
+            "consent": {
+                "title": "Zgoda",
+                "par1": "Używając naszej strony, zgadzasz się na korzystanie z naszej Polityki Prywatności oraz akceptujesz warunki korzystania z naszych usług."
             }
         },
         "about": {
@@ -48,13 +66,21 @@
     },
     "action": {
         "clearAvailabilities": "Wyczyść wybrane dostępności",
-        "sendTweet": "Wyślij tweeta",
+        "sendTweet": "Wyślij Tweeta",
         "save": "Zapisz",
         "accept": "Akceptuj",
         "cancel": "Anuluj",
         "confirm": "Potwierdź",
         "decline": "Odrzuć",
-        "join": "Dołącz"
+        "join": "Dołącz",
+        "shareMastodon": "Udostępnij na Mastodon",
+        "import": "Importuj",
+        "share": "Udostępnij",
+        "submit": "Zatwierdź",
+        "login": "Zaloguj",
+        "create": "Stwórz",
+        "edit": "Edytuj",
+        "delete": "Usuń"
     },
     "alert": {
         "category": {
@@ -125,6 +151,10 @@
             "deletion": {
                 "error": "Wystąpił błąd podczas usuwania zgłoszenia. Spróbuj ponownie lub skontaktuj się z administratorem.",
                 "success": "Zgłoszenia usunięte"
+            },
+            "save": {
+                "error": "Błąd podczas procesu przesyłania",
+                "success": "Zgłoszenie wysłane"
             }
         },
         "submit": {
@@ -132,7 +162,8 @@
             "DIFFERENT_MARATHON": "Ten kod wyścigu nie należy do tego maratonu",
             "MAX_SIZE_REACHED": "To zgłoszenie już ma maksymalną ilość runnerów",
             "NOT_MULTIPLAYER": "To zgłoszenie nie jest dla wielu graczy",
-            "SAME_USER": "Nie możesz dodać siebie do kategorii dodanej przez ciebie"
+            "SAME_USER": "Nie możesz dodać siebie do kategorii dodanej przez ciebie",
+            "DISCORD_VERIFIED": "Zweryfikowano, że należysz do serweru na discordzie. Możesz teraz przesłać"
         },
         "user": {
             "deactivate": {
@@ -140,15 +171,21 @@
             },
             "login": {
                 "disabledAccount": "Twoje konto jest wyłączone. Jeśli chcesz je znów użyć, skontaktuj się z administratorem.",
-                "error": "Wystąpił błąd podczas logowania. Spróbuj ponownie lub skontaktuj się z administratorem."
+                "error": "Wystąpił błąd podczas logowania. Spróbuj ponownie lub skontaktuj się z administratorem.",
+                "noAccountFound": "Nie znaleziono takiego konta, zarejestruj się lub zsynchronizuj z istniejącym kontem."
             },
             "update": {
                 "error": "Błąd podczas aktualizacji danych użytkownika",
                 "success": "Dane użytkownika zaktualizowane"
             },
             "sync": {
-                "alreadySynced": "Błąd: To konto jest już użyte przez innego użytkownika"
+                "alreadySynced": "Błąd: To konto jest już użyte przez innego użytkownika",
+                "error": "Wystąpił błąd podczas synchronizacji konta. Zazwyczaj jest to spowodowane przez Blokery Reklam. Spróbuj ponownie z wyłączonym blokerem reklam. Jeżeli próbowałeś z wyłączonymi wtyczkami blokującymi reklamy a ten błąd dalej występuje, poproś o pomoc na kanale #bug_or_feature na naszym discordzie."
             }
+        },
+        "generic": {
+            "validationError": "Coś poszło nie tak, prosimy o zweryfikowanie błędu. Jeżeli ten błąd się powtórzy, prosimy o kontakt na discordzie.",
+            "clipboardOk": "Skopiowano do schowka!"
         }
     },
     "calendar": {
@@ -158,18 +195,25 @@
         "help": "Kliknięcie na wydarzenie pozwoli ci przejść na stronę tego wydarzenia",
         "noMarathons": "Nie ma żadnych maratonów w tym okresie.",
         "startsAt": "Zaczyna się {{start-time}}",
-        "title": "Kalendarz maratonów"
+        "title": "Kalendarz maratonów",
+        "between": "{{time-range}}"
     },
     "footer": {
         "donate": "Jeśli lubisz stronę Oengus, rozważ <a href=\"{{donationLink}}\" target=\"_blank\">wsparcie strony</a>",
         "v1Link": "Zaloguj się do strony Oengus na wersji v1",
-        "text": "Wszystkie czasy są przeliczane na twoją strefę czasową. Wykryta strefa czasowa: {{timezone}}"
+        "text": "Wszystkie czasy są przeliczane na twoją strefę czasową. Wykryta strefa czasowa: {{timezone}}",
+        "patron": {
+            "patronLink": "zostanie patronem",
+            "enjoyOengus": "Jeżeli lubisz korzystać z Oengus, wesprzyj nas {{patronLink}}",
+            "list": "Dziękujemy naszym patronom wymienionym poniżej, których wkład sprawia, że Oengus jest darmowy dla wszystkich."
+        }
     },
     "global": {
         "emu": "[Emulator]",
         "enabled": "Włączony",
         "disabled": "Wyłączony",
-        "non_select": "Brak wybranych elementów"
+        "non_select": "Brak wybranych elementów",
+        "loading": "Wczytywanie..."
     },
     "homepage": {
         "ends": "Kończy się {{duration}}",
@@ -191,7 +235,13 @@
             "title": "Planowane funkcje"
         },
         "sponsors": {
-            "title": "Sponsorzy"
+            "title": "Sponsorzy",
+            "patreon": {
+                "see_footer": "Wdzięcznie wyświetlamy naszych patronów na dole każdej strony!",
+                "patrons": "patronowie",
+                "nobody": "Oengus nie ma żadnych sponsorów!",
+                "but_patreon": "Oengus jest całkowicie darmowy dla każdego dzięki naszym {{patrons}}!"
+            }
         },
         "starts": "Zaczyna się {{duration}}",
         "submissions_close": "Zgłoszenia zamykają się {{duration}}",
@@ -331,7 +381,10 @@
             "editSubmission": "Edytuj zgłoszenie",
             "admin": "Admin",
             "donate": "Wesprzyj",
-            "donations": "Donacje"
+            "donations": "Donacje",
+            "schedules": "Harmonogramy",
+            "manageSchedules": "Zarządzanie harmonogramami",
+            "tracker": "Lokalizator"
         },
         "new": {
             "description": "Te informacje są wymagane, aby utworzyć nowy maraton. Po jego stworzeniu będziesz mógł skonfigurować więcej detali.",
@@ -359,5 +412,21 @@
     },
     "login": {
         "authInProgress": "Logowanie w trakcie, proszę czekać…"
+    },
+    "auth": {
+        "passwordReset": {
+            "title": "Zresetuj swoje hasło!",
+            "instructions": "Aby zresetować hasło, prosimy o wpisanie adresu e-mail.\n    Jeżeli twój adres e-mail jest w naszym systemie, wyślemy ci linka gdzie będziesz mógł zresetować swoje hasło.",
+            "tokenMissing": "Twó token do resetowania hasła zaginął, kliknij link w wiadomości e-mail jeszcze raz.",
+            "submit": "Prośba o reset hasła!",
+            "requested": "Twoja prośba o zresetowanie hasła została wysłana na twój adres e-mail. Prosimy o jej sprawdzenie w celu dalszych instrukcji.",
+            "error": {
+                "PASSWORD_RESET_CODE_INVALID": "Token resetowania hasła jest nieprawidłowy, poproś o nową wiadomość e-mail.",
+                "EMAIL_VERIFICATION_REQUIRED": "Prosimy o zweryfikowanie adresu e-mail aby uzyskać możliwość używania tej fukcji."
+            },
+            "success": "Twoje hasło zostało pomyślnie zresetowane. Możesz się teraz zalogować używając nowego hasła.",
+            "request": "Prośba o zmianę hasła"
+        },
+        "emailVerificationRequired": "Prosimy o zweryfikowanie swojego adresu e-mail przed możliwością użycia tej funkcji."
     }
 }

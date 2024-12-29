@@ -1334,5 +1334,20 @@
         "da": "danese",
         "tr": "turco",
         "pt": "portoghese"
+    },
+    "announcements": {
+        "twitterRemoval": "Ciao, a breve rimoveremo twitter dalle opzioni per effettuare il login. Assicurati di avere collegato il tuo account Twitch o Discord all'account Oengus per evitare di perdere l'accesso."
+    },
+    "auth": {
+        "passwordReset": {
+            "request": "Richiedi reset della password",
+            "title": "Reset della password!",
+            "instructions": "Per effettuare il reset della password, inserire il proprio indirizzo email.\n    Se il tuo indirizzo email è presente all'interno del nostro sistema, ti invieremo un link da cui sarà possibile fare il reset della password.",
+            "tokenMissing": "Il token per il reset della password non è presente, si prega di fare nuovamente clic sul link ricevuto via email.",
+            "submit": "Reset della password!",
+            "requested": "Una richiesta di reset della password è stata inviata al tuo indirizzo email. Controlla l'email per istruzioni su come proseguire.",
+            "success": "Il reset della password è stato effettuato con successo. Ora puoi accedere con la tua password."
+        },
+        "emailVerificationRequired": "Verifica il tuo indirizzo email prima di utilizzare questa funzione."
     }
 }

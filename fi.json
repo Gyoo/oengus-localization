@@ -1072,7 +1072,8 @@
         "EMAIL": "Sähköposti",
         "PHONE": "Puhelinnumero",
         "YOUTUBE": "YouTube",
-        "MASTODON": "Mastodon"
+        "MASTODON": "Mastodon",
+        "BLUESKY": "Bluesky"
     },
     "navbar": {
         "login": {

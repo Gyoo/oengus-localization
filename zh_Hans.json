@@ -335,7 +335,8 @@
         "EMAIL": "电子邮件",
         "PHONE": "电话号码",
         "YOUTUBE": "YouTube",
-        "NICO": "Nico"
+        "NICO": "Nico",
+        "BLUESKY": "蓝天"
     },
     "auth": {
         "passwordReset": {

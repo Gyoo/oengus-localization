@@ -1511,12 +1511,13 @@
         "FACEBOOK": "Facebook",
         "INSTAGRAM": "Instagram",
         "SNAPCHAT": "Snapchat",
-        "DISCORD": "디스코드",
+        "DISCORD": "Discord",
         "EMAIL": "이메일",
         "PHONE": "휴대전화번호",
-        "NICO": "니코동",
+        "NICO": "Nico",
         "YOUTUBE": "유튜브",
-        "MASTODON": "마스토돈"
+        "MASTODON": "Mastodon",
+        "BLUESKY": "Bluesky"
     },
     "news": {
         "title": "뉴스"

@@ -18,10 +18,27 @@
             "title": "Informativa Privacy",
             "par2": "Per porre domande o richiedere ulteriori informazioni riguardo la nostra Informativa sulla Privacy, non esitate a contattarci.",
             "log": {
-                "title": "File di Log"
+                "title": "File di Log",
+                "par1": "Oengus segue una procedura standard nell'uso dei file di log. Questi file registrano i visitatori quando accedono ai siti web. Tutte le società di hosting adottano questa pratica come parte delle analisi dei servizi di hosting. Le informazioni raccolte nei file di log includono indirizzi di protocollo internet (IP), tipo di browser, provider di servizi internet (ISP), data e ora dell’accesso, pagine di riferimento/uscita e, possibilmente, il numero di clic. Questi dati non sono collegati a informazioni di identificazione personale. Lo scopo della raccolta di queste informazioni è l'analisi delle tendenze, l'amministrazione del sito, il tracciamento dei movimenti degli utenti all'interno del sito web e la raccolta di dati demografici."
             },
             "par3": "In caso di conflitto, la versione inglese di questo documento assume priorità.",
-            "par1": "Su Oengus, accessibile all'indirizzo {{oengus-link}}, la privacy dei nostri utenti è tra le nostre priorità. Questa Informativa sulla Privacy illustra i tipi di informazioni raccolte e registrate da Oengus e come esse vengono usate."
+            "par1": "Su Oengus, accessibile all'indirizzo {{oengus-link}}, la privacy dei nostri utenti è tra le nostre priorità. Questa Informativa sulla Privacy illustra i tipi di informazioni raccolte e registrate da Oengus e come esse vengono usate.",
+            "consent": {
+                "title": "Acconsento"
+            },
+            "cookies": {
+                "par1": "Come qualsiasi altro sito web, Oengus utilizza i 'cookie'. Questi cookie vengono utilizzati per memorizzare informazioni, inclusi le preferenze dei visitatori e le pagine del sito web a cui hanno acceduto o che hanno visitato. Queste informazioni vengono utilizzate per ottimizzare l'esperienza degli utenti personalizzando il contenuto delle nostre pagine web in base al tipo di browser dei visitatori e/o ad altre informazioni.",
+                "title": "Cookie e Web Beacon"
+            },
+            "thirdParty": {
+                "title": "Informativa sulla privacy di terze parti",
+                "par2": "Puoi scegliere di disabilitare i cookie tramite le opzioni del tuo browser. Per maggiori informazioni sulla gestione dei cookie nei diversi browser web, puoi consultare i rispettivi siti ufficiali dei browser.",
+                "par1": "L'informativa della privacy di Oengus non viene applicata ad altri siti web o inserzionisti."
+            },
+            "children": {
+                "title": "Informazioni sui minori",
+                "par1": "Un'altra nostra priorità è garantire una maggiore protezione per i minori mentre utilizzano internet. Incoraggiamo i genitori e tutori ad osservare, partecipare, e/o monitorare e guidare l'attività online dei loro figli."
+            }
         }
     },
     "marathon": {
@@ -707,7 +724,13 @@
         },
         "starts": "Inizia {{duration}}",
         "sponsors": {
-            "title": "Sponsor"
+            "title": "Sponsor",
+            "patreon": {
+                "nobody": "Oengus non ha nessun sponsor!",
+                "but_patreon": "Oengus è completamente gratuito per tutti grazie ai nostri {{patrons}}!",
+                "see_footer": "Mostriamo con orgoglio i nostri sostenitori nella parte bassa di ogni pagina!",
+                "patrons": "sostenitori"
+            }
         },
         "plannedFeatures": {
             "1": "Proposte di gare / run in co-op",
@@ -733,8 +756,20 @@
         "authInProgress": "Autenticazione in corso, attendere prego…",
         "provider": {
             "discord": "Login tramite Discord",
-            "twitch": "Login tramite Twitch"
-        }
+            "twitch": "Login tramite Twitch",
+            "title": "Accedi con un provider",
+            "google": "Accedi con Google"
+        },
+        "forgotPass": "Hai dimenticato la password?",
+        "password": {
+            "show": "Rendi la password visibile",
+            "hide": "Nascondi password"
+        },
+        "2fa": {
+            "label": "Codice di autenticazione a due fattori"
+        },
+        "title": "Accedi al tuo account Oengus",
+        "button": "Accedi"
     },
     "alert": {
         "user": {
@@ -749,7 +784,8 @@
             "login": {
                 "usernameExists": "Il username dell'account esiste già. Assicurati di non aver già creato un profilo su Oengus con un metodo di login differente. Se pensi si tratti di un errore, si prega di contattare un amministratore.",
                 "error": "Si è verificato un errore durante il login. Si prega di riprovare o contattare un amministratore.",
-                "disabledAccount": "Il tuo account è disabilitato. Se desideri utilizzarlo di nuovo, si prega di contattare un amministratore."
+                "disabledAccount": "Il tuo account è disabilitato. Se desideri utilizzarlo di nuovo, si prega di contattare un amministratore.",
+                "noAccountFound": "Account non trovato, registra un nuovo account o sincronizza con un account esistente."
             },
             "deactivate": {
                 "success": "Il tuo account è stato disattivato"
@@ -772,7 +808,8 @@
             "deletion": {
                 "success": "Proposta rimossa",
                 "error": "Si è verificato un errore durante la rimozione della proposta. Si prega di riprovare o contattare un amministratore."
-            }
+            },
+            "cache": "Il tuo invio potrebbe richiedere 30 minuti o più per apparire in questa lista"
         },
         "selection": {
             "save": {
@@ -836,6 +873,10 @@
                 "success": "Categoria rimossa",
                 "error": "Si è verificato un errore durante la rimozione della categoria. Si prega di riprovare o contattare un amministratore."
             }
+        },
+        "generic": {
+            "clipboardOk": "Copiato nei tuoi appunti!",
+            "validationError": "Qualcosa è andato storto, verifica la presenza di errori di validazione. Se il problema persiste, contatta il supporto su Discord."
         }
     },
     "action": {
@@ -847,20 +888,41 @@
         "decline": "Rifiuta",
         "confirm": "Conferma",
         "cancel": "Annulla",
-        "accept": "Accetta"
+        "accept": "Accetta",
+        "share": "Condividi",
+        "import": "Importa",
+        "shareMastodon": "Condividi su Mastodon",
+        "create": "Crea",
+        "edit": "Modifica",
+        "delete": "Elimina",
+        "login": "accedi"
     },
     "global": {
         "disabled": "Disattivato",
         "enabled": "Attivato",
-        "emu": "[Emu]"
+        "emu": "[Emu]",
+        "non_select": "Nessuno selezionato",
+        "loading": "Caricamento..."
     },
     "footer": {
         "text": "Tutti gli orari sono convertiti al fuso orario locale. Fuso orario rilevato: {{timezone}}",
-        "donate": "Se ti piace Oengus, puoi aiutarci <a href=\"{{donationLink}}\" target=\"_blank\">con una donazione</a>"
+        "donate": "Se ti piace Oengus, puoi aiutarci <a href=\"{{donationLink}}\" target=\"_blank\">con una donazione</a>",
+        "patron": {
+            "enjoyOengus": "Se ti piace Oengus, sostienici su {{patronLink}}",
+            "list": "Grazie ai nostri sostenitori elencati di seguito, i cui contributi mantengono Oengus gratuito per tutti",
+            "patronLink": "diventa un sostenitore"
+        },
+        "v1Link": "Accedi a Oengus in v1"
     },
     "calendar": {
         "title": "Calendario maratone",
-        "help": "Clicca su un evento per vederne la pagina"
+        "help": "Clicca su un evento per vederne la pagina",
+        "between": "{{time-range}}",
+        "endsAt": "Termina {{end-time}}",
+        "noMarathons": "Non ci sono maratone in questo intervallo di date.",
+        "now": "Adesso",
+        "startsAt": "Inizia {{start-time}}",
+        "allDay": "Tutto il giorno"
     },
     "user": {
         "profile": {
@@ -1273,7 +1335,9 @@
         "TWITTER": "Twitter",
         "SPEEDRUNCOM": "speedrun.com",
         "NICO": "Nico",
-        "YOUTUBE": "YouTube"
+        "YOUTUBE": "YouTube",
+        "MASTODON": "Mastodon",
+        "BLUESKY": "Bluesky"
     },
     "language": {
         "de": "tedesco",
@@ -1346,8 +1410,18 @@
             "tokenMissing": "Il token per il reset della password non è presente, si prega di fare nuovamente clic sul link ricevuto via email.",
             "submit": "Reset della password!",
             "requested": "Una richiesta di reset della password è stata inviata al tuo indirizzo email. Controlla l'email per istruzioni su come proseguire.",
-            "success": "Il reset della password è stato effettuato con successo. Ora puoi accedere con la tua password."
+            "success": "Il reset della password è stato effettuato con successo. Ora puoi accedere con la tua password.",
+            "error": {
+                "PASSWORD_RESET_CODE_INVALID": "Il token di reimpostazione della password fornito non è valido. Richiedi una nuova email.",
+                "EMAIL_VERIFICATION_REQUIRED": "Verifica il tuo indirizzo email prima di utilizzare questa funzionalità."
+            }
         },
         "emailVerificationRequired": "Verifica il tuo indirizzo email prima di utilizzare questa funzione."
+    },
+    "register": {
+        "email_sent": "Ti abbiamo inviato un'email alla tua casella di posta. Clicca sul link all'interno per verificare il tuo indirizzo email.",
+        "thank_you": "Grazie!",
+        "submit": "Iscriviti!",
+        "login_hint": "In alternativa, puoi già {{login-link}} se lo desideri."
     }
 }

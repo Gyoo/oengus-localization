@@ -14,7 +14,8 @@
         "INSTAGRAM": "Instagram",
         "SNAPCHAT": "Snapchat",
         "NICO": "Nico",
-        "EMAIL": "E-mail"
+        "EMAIL": "E-mail",
+        "BLUESKY": "Bluesky"
     },
     "aboutPage": {
         "contact": {
@@ -163,7 +164,8 @@
             "MAX_SIZE_REACHED": "To zgłoszenie już ma maksymalną ilość runnerów",
             "NOT_MULTIPLAYER": "To zgłoszenie nie jest dla wielu graczy",
             "SAME_USER": "Nie możesz dodać siebie do kategorii dodanej przez ciebie",
-            "DISCORD_VERIFIED": "Zweryfikowano, że należysz do serweru na discordzie. Możesz teraz przesłać"
+            "DISCORD_VERIFIED": "Zweryfikowano, że należysz do serweru na discordzie. Możesz teraz przesłać",
+            "ALREADY_IN_OPPONENTS": "Należysz już do tej kategorii"
         },
         "user": {
             "deactivate": {
@@ -172,7 +174,8 @@
             "login": {
                 "disabledAccount": "Twoje konto jest wyłączone. Jeśli chcesz je znów użyć, skontaktuj się z administratorem.",
                 "error": "Wystąpił błąd podczas logowania. Spróbuj ponownie lub skontaktuj się z administratorem.",
-                "noAccountFound": "Nie znaleziono takiego konta, zarejestruj się lub zsynchronizuj z istniejącym kontem."
+                "noAccountFound": "Nie znaleziono takiego konta, zarejestruj się lub zsynchronizuj z istniejącym kontem.",
+                "usernameExists": "Nazwa użytkownika powiązana z kontem, na które próbujesz się zalogować, już istnieje. Upewnij się, że nie utworzyłeś już profilu Oengus za pomocą innej metody logowania. Jeśli uważasz, że to nieprawda, skontaktuj się z nami."
             },
             "update": {
                 "error": "Błąd podczas aktualizacji danych użytkownika",
@@ -232,7 +235,8 @@
             "6": "Powiadomienia mailowe",
             "7": "Zarządzanie donacjami przez PayPala",
             "volunteerManager": "Zarządzanie zgłoszeniami wolontariuszy",
-            "title": "Planowane funkcje"
+            "title": "Planowane funkcje",
+            "2": "Wiele systemów wyboru biegów (bezpośredni wybór, głosowanie…)"
         },
         "sponsors": {
             "title": "Sponsorzy",

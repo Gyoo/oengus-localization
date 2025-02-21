@@ -409,13 +409,22 @@
                     "alreadyPublished": "Harmonogram jest już publiczny",
                     "publish": "Upublicznij harmonogram",
                     "addRun": "Dodaj run"
+                },
+                "settings": {
+                    "editTitle": "Edytowanie: {{scheduleName}}"
                 }
             },
             "currentRun": "Obecny run"
         }
     },
     "login": {
-        "authInProgress": "Logowanie w trakcie, proszę czekać…"
+        "authInProgress": "Logowanie w trakcie, proszę czekać…",
+        "forgotPass": "Zapomniałeś hasła?",
+        "password": {
+            "hide": "Ukryj hasło",
+            "show": "Pokaż hasło"
+        },
+        "button": "Zaloguj"
     },
     "auth": {
         "passwordReset": {
@@ -432,5 +441,10 @@
             "request": "Prośba o zmianę hasła"
         },
         "emailVerificationRequired": "Prosimy o zweryfikowanie swojego adresu e-mail przed możliwością użycia tej funkcji."
+    },
+    "register": {
+        "submit": "Zarejestruj się!",
+        "thank_you": "Dziękujemy!",
+        "email_sent": "Wysłaliśmy mejla do twojej skrzynki, kliknij na link w nim by zweryfikować swój adres email."
     }
 }

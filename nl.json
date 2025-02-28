@@ -405,6 +405,7 @@
                 "csv": "Exporteer naar CSV",
                 "ics": "Exporteer naar ICS",
                 "json": "Exporteer nar JSON (Horaro)",
+                "gdq": "GDQ Donatie Tracker (externe applicatie)",
                 "title": "Exporteer schema"
             },
             "management": {

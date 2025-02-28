@@ -422,6 +422,7 @@
         "csv": "Export to CSV",
         "ics": "Export to ICS",
         "json": "Export to JSON (Horaro)",
+        "gdq": "GDQ Donation Tracker (external tool)",
         "title": "Export schedule"
       },
       "management": {

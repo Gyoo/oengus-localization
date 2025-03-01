@@ -17,28 +17,8 @@
         "privacy": {
             "title": "Informativa Privacy",
             "par2": "Per porre domande o richiedere ulteriori informazioni riguardo la nostra Informativa sulla Privacy, non esitate a contattarci.",
-            "log": {
-                "title": "File di Log",
-                "par1": "Oengus segue una procedura standard nell'uso dei file di log. Questi file registrano i visitatori quando accedono ai siti web. Tutte le società di hosting adottano questa pratica come parte delle analisi dei servizi di hosting. Le informazioni raccolte nei file di log includono indirizzi di protocollo internet (IP), tipo di browser, provider di servizi internet (ISP), data e ora dell’accesso, pagine di riferimento/uscita e, possibilmente, il numero di clic. Questi dati non sono collegati a informazioni di identificazione personale. Lo scopo della raccolta di queste informazioni è l'analisi delle tendenze, l'amministrazione del sito, il tracciamento dei movimenti degli utenti all'interno del sito web e la raccolta di dati demografici."
-            },
             "par3": "In caso di conflitto, la versione inglese di questo documento assume priorità.",
-            "par1": "Su Oengus, accessibile all'indirizzo {{oengus-link}}, la privacy dei nostri utenti è tra le nostre priorità. Questa Informativa sulla Privacy illustra i tipi di informazioni raccolte e registrate da Oengus e come esse vengono usate.",
-            "consent": {
-                "title": "Acconsento"
-            },
-            "cookies": {
-                "par1": "Come qualsiasi altro sito web, Oengus utilizza i 'cookie'. Questi cookie vengono utilizzati per memorizzare informazioni, inclusi le preferenze dei visitatori e le pagine del sito web a cui hanno acceduto o che hanno visitato. Queste informazioni vengono utilizzate per ottimizzare l'esperienza degli utenti personalizzando il contenuto delle nostre pagine web in base al tipo di browser dei visitatori e/o ad altre informazioni.",
-                "title": "Cookie e Web Beacon"
-            },
-            "thirdParty": {
-                "title": "Informativa sulla privacy di terze parti",
-                "par2": "Puoi scegliere di disabilitare i cookie tramite le opzioni del tuo browser. Per maggiori informazioni sulla gestione dei cookie nei diversi browser web, puoi consultare i rispettivi siti ufficiali dei browser.",
-                "par1": "L'informativa della privacy di Oengus non viene applicata ad altri siti web o inserzionisti."
-            },
-            "children": {
-                "title": "Informazioni sui minori",
-                "par1": "Un'altra nostra priorità è garantire una maggiore protezione per i minori mentre utilizzano internet. Incoraggiamo i genitori e tutori ad osservare, partecipare, e/o monitorare e guidare l'attività online dei loro figli."
-            }
+            "par1": "Su Oengus, accessibile all'indirizzo {{oengus-link}}, la privacy dei nostri utenti è tra le nostre priorità. Questa Informativa sulla Privacy illustra i tipi di informazioni raccolte e registrate da Oengus e come esse vengono usate."
         }
     },
     "marathon": {

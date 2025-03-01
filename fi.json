@@ -930,36 +930,10 @@
             "par1": "Löysitkö bugin? Onko sinulla kysyttävää sivustosta? Liity <a href=\"https://discord.gg/ZZFS8YT\" target=\"_blank\">Discord-palvelimellemme!</a>"
         },
         "privacy": {
-            "log": {
-                "par1": "Oengus käyttää normaalia käytäntöä lokitiedostojen käsittelyssä. Nämä tiedostot sisältävät tietoa kävijän käynnistä sivustolla. Kaikki palveluntarjoat käyttävät tätä osana palveluntarjoajan tilastointia. Tämä tieto sisältää IP-osoitteet, selaintyypit, palveluntarjoajan, ajan ja päivämäärän, linkitetyt sivut ja mahdollisesti klikkausten määrä. Nämä eivät ole kytköksissä tietoihin, joilla voidaan yksilöidä käytäntö. Niiden tarkoitus on tilastoida sivuston trendeja, sivuston ylläpitoon, kävijöiden sivustollaliikkumisen seurantaan ja demografiatietojen keräämistä varten.",
-                "title": "Lokitiedostot"
-            },
-            "thirdParty": {
-                "par1": "Oengus'n tietosuojakäytäntö ei koske muita mainostajia tai verkkosivustoja.",
-                "title": "Kolmansien osapuolten tietosuojakäytännöt",
-                "par2": "Voit poistaa evästeet käytöstä selaimesi asetuksista. Tarkempia tietoja evästeiden hallinnasta tietyillä selaimilla löydät selainten vastaavilta verkkosivuilta."
-            },
             "title": "Tietosuojakäytäntö",
             "par1": "Oenguksella, jonne pääset tästä {{oengus-link}} me sitoutumme suojelemaan kävijöidemme yksityisyyttä. Tämä tietosuojakäytäntö sisältää tietoa siitä minkälaista tietoa keräämme ja tallennamme sivuston kävijöistä.",
             "par2": "Jos sinulla on kysymyksiä tai haluat lisätietoa tästä tietosuojakäytännöstä, älä epäröi ottaa yhteyttä meihin.",
-            "consent": {
-                "title": "Suostumus",
-                "par1": "Käyttämällä verkkosivustoamme hyväksyt tietosuojakäytäntömme ja sen käyttöehdot."
-            },
-            "par3": "Tapauksessa, kun tämä tietosuojakäytäntö on ristiriidassa englanninkielisen version kanssa, englanninkielinen versio pätee.",
-            "cookies": {
-                "title": "Evästeet ja web bugit",
-                "par1": "Kuten mikä tahansa muu sivusto, Oengus käyttää evästeitä. Nämä evästeet sisältävät tietoja kävijöiden asetuksista ja tietoa millä sivustoilla kävijä on käynyt. Tätä tietoa käytetään käyttäjän kokemuksen parantamiseksi ja muokkaamalla sivustoa käyttäjän selaimen tyypin ja/tai muun tiedon perusteella."
-            },
-            "children": {
-                "title": "Lasten tiedot",
-                "par1": "Toinen painopistealueemme on lasten suojelun lisääminen internetiä käytettäessä. Kannustamme vanhempia ja huoltajia tarkkailemaan, osallistumaan ja/tai valvomaan ja ohjaamaan lasten verkkotoimintaa.",
-                "par2": "Oengus ei tietoisesti kerää henkilökohtaisia tietoja alle 13-vuotiailta lapsilta. Jos uskot, että lapsesi on antanut tällaisia tietoja verkkosivustollamme, kehotamme sinua ottamaan välittömästi yhteyttä meihin, jotta voimme parhaan kykymme mukaan poistaa tällaiset tiedot rekisteristämme."
-            },
-            "online": {
-                "title": "Ainoastaan verkkotietosuojakäytäntö",
-                "par1": "Tämä tietosuojakäytäntö koskee vain verkkotoimintaamme, ja se koskee verkkosivustomme kävijöitä niiden tietojen osalta, jotka he jakavat ja/tai keräävät Oengusissa. Tätä käytäntöä ei sovelleta offline-tilassa tai muiden kanavien kuin tämän verkkosivuston kautta kerättyihin tietoihin."
-            }
+            "par3": "Tapauksessa, kun tämä tietosuojakäytäntö on ristiriidassa englanninkielisen version kanssa, englanninkielinen versio pätee."
         }
     },
     "calendar": {

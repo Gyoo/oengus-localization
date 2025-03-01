@@ -252,11 +252,6 @@
         "contact": {
             "title": "Kontakto"
         },
-        "privacy": {
-            "children": {
-                "title": "Informoj pri infanoj"
-            }
-        },
         "about": {
             "title": "Pri"
         }

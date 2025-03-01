@@ -25,35 +25,9 @@
         },
         "privacy": {
             "title": "Polityka prywatności",
-            "log": {
-                "par1": "Oengus stosuje standardową procedurę korzystania z plików dziennika zdarzeń. Pliki te rejestrują odwiedzających strony internetowe. Działania te są wykonywane przez wszystkie firmy hostingowe jako część analityki usług hostingowych. Informacje gromadzone przez pliki dziennika zdarzeń obejmują: adresy protokołu internetowego (IP), rodzaj przeglądarki, dostawcę usług internetowych (ISP), datę i godzinę, strony odsyłające/wyjściowe i ewentualnie liczbę kliknięć. Dane te nie są powiązane z żadnymi danymi osobowymi. Celem tych informacji jest analiza trendów, administrowanie witryną, śledzenie ruchu użytkowników po witrynie oraz zbieranie danych demograficznych.",
-                "title": "Pliki Dzienników Zdarzeń"
-            },
             "par2": "Jeśli masz jakieś dodatkowe pytania, bądź chcesz wiedzieć więcej o naszej polityce prywatności, nie wahaj się z nami skontaktować.",
             "par1": "Jednym z naszych głównych priorytetów w Oengus (dostępnym poprzez {{oengus-link}}) jest prywatność naszych odwiedzających. Ta polityka prywatności zawiera klasyfikację danych gromadzonych przez Oengus, oraz sposób ich przetwarzania.",
-            "par3": "W przypadku konflików, nadrzędna jest Angielska wersja tej polityki.",
-            "cookies": {
-                "title": "Pliki cookie i obrazy Web Beacons",
-                "par1": "Jak każda inna strona internetowa, Oengus używa plików cookie. Te pliki cookie służą do przechowywania informacji, w tym: preferencji odwiedzających, stron w witrynie, do których odwiedzający miał dostęp oraz stron, które odwiedził. Informacje te są wykorzystywane do optymalizacji doświadczeń użytkowników poprzez dostosowywanie zawartości naszej strony internetowej w oparciu o rodzaj przeglądarki odwiedzającego i/lub inne informacje."
-            },
-            "thirdParty": {
-                "title": "Polityka Prywatności Stron Trzecich",
-                "par1": "Polityka prywatności Oengus nie jest stosowana do innych stron internetowych czy reklamodawców.",
-                "par2": "Możesz wyłączyć pliki cookie za pomocą ustawień przeglądarki. Aby poznać bardziej szczegółowe informacje na temat zarządzania plikami cookie w poszczególnych przeglądarkach internetowych, odwiedź stronę internetową danej przeglądarki."
-            },
-            "children": {
-                "title": "Informacje dotyczące dzieci",
-                "par1": "Dużą częścią naszego priorytetu jest ochrona dzieci podczas korzystania z Internetu. Zachęcamy rodziców i opiekunów do obserwowania, uczestnictwa i/lub monitorowania ich działaniami w sieci.",
-                "par2": "Oengus świadomie nie zbiera danych osobowych od dzieci poniżej 13-ego roku życia. Jeżeli myślisz, że twoje dziecko dodało takie informacje na naszej stronie, bardzo cię prosimy o niezwłoczny kontakt i zrobimy co możemy aby usunąć takie dane z naszej bazy danych."
-            },
-            "online": {
-                "title": "Polityka Prywatności Online",
-                "par1": "Polityka Prywatności ma zastosowanie tylko do naszej aktywności w sieci i jest ważna dla odwiedzających naszą stronę internetową w odniesieniu do informacji, które udostępniają i/lub gromadzą w Oengus. Ta polityka nie ma zastosowania do żadnych informacji zebranych offline lub przy użyciu kanałów innych niż nasza strona."
-            },
-            "consent": {
-                "title": "Zgoda",
-                "par1": "Używając naszej strony, zgadzasz się na korzystanie z naszej Polityki Prywatności oraz akceptujesz warunki korzystania z naszych usług."
-            }
+            "par3": "W przypadku konflików, nadrzędna jest Angielska wersja tej polityki."
         },
         "about": {
             "par2": "Speedrunning to granie w grę wideo z zamiarem ukończenia jej tak szybko, jak to możliwe w celach rozrywkowych i/lub rywalizacji. Możesz przeczytać więcej o speedrunningu na <a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedii</a>.",

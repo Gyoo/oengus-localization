@@ -17,32 +17,6 @@
         "privacy": {
             "par2": "Si tienes preguntas adicionales o requieres más información sobre nuestra Política de Privacidad, no dudes en contactarnos.",
             "par3": "En caso de conflicto, prevalecerá la versión en inglés de esta política.",
-            "log": {
-                "title": "Archivos de registro",
-                "par1": "Oengus sigue un procedimiento estándar de utilización de archivos de registro. Estos archivos registran a los visitantes cuando visitan los sitios web. Todas las empresas de alojamiento lo hacen y forman parte de los análisis de los servicios de alojamiento. La información recogida por los archivos de registro incluye direcciones de protocolo de Internet (IP), tipo de navegador, proveedor de servicios de Internet (ISP), fecha y hora, páginas de referencia/salida y, posiblemente, el número de clics. Estos datos no están vinculados a ninguna información que permita la identificación personal. El propósito de la información es analizar tendencias, administrar el sitio, rastrear los movimientos de los usuarios en el sitio web y recopilar información demográfica."
-            },
-            "consent": {
-                "title": "Consentir",
-                "par1": "Al utilizar nuestro sitio web, usted acepta nuestra Política de Privacidad y está de acuerdo con sus Términos y Condiciones."
-            },
-            "children": {
-                "title": "Información infantil",
-                "par1": "Otra parte de nuestra prioridad es añadir protección para los niños mientras usan internet. Animamos a padres y tutores a que observen, participen y/o supervisen y guíen su actividad en línea.",
-                "par2": "Oengus no recopila a sabiendas ningún tipo de información personal identificable de niños menores de 13 años. Si cree que su hijo ha proporcionado este tipo de información en nuestro sitio web, le recomendamos encarecidamente que se ponga en contacto con nosotros inmediatamente y haremos todo lo posible por eliminar rápidamente dicha información de nuestros registros."
-            },
-            "cookies": {
-                "title": "Cookies y contadores de visitas",
-                "par1": "Como cualquier otro sitio web, Oengus utiliza \"cookies\". Estas cookies se utilizan para almacenar información, incluidas las preferencias de los visitantes y las páginas del sitio web a las que el visitante accedió o visitó. La información se utiliza para optimizar la experiencia de los usuarios personalizando el contenido de nuestra página web en función del tipo de navegador de los visitantes y/u otra información."
-            },
-            "thirdParty": {
-                "title": "Políticas de privacidad de terceros",
-                "par2": "Puede optar por desactivar las cookies a través de las opciones individuales de su navegador. Para conocer información más detallada sobre la gestión de cookies con navegadores web específicos, puede consultarse en los sitios web respectivos de los navegadores.",
-                "par1": "La Política de Privacidad de Oengus no se aplica a otros anunciantes o sitios web."
-            },
-            "online": {
-                "title": "Política de privacidad en línea solamente",
-                "par1": "Esta política de privacidad se aplica únicamente a nuestras actividades en línea y es válida para los visitantes de nuestro sitio web en lo que respecta a la información que comparten y/o recopilan en Oengus. Esta política no es aplicable a ninguna información recopilada fuera de línea o a través de canales distintos de este sitio web."
-            },
             "title": "Políticas de privacidad",
             "par1": "En Oengus, es accesible desde {{oengus-link}}, una de nuestras principales prioridades es la privacidad de nuestros visitantes. Este documento de Política de privacidad contiene los tipos de información que Oengus recopila, registra y cómo los usamos."
         }

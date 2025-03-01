@@ -14,13 +14,7 @@
             "title": "聯絡"
         },
         "privacy": {
-            "online": {
-                "title": "網絡私隱條款"
-            },
-            "title": "私隱條款",
-            "thirdParty": {
-                "title": "第三方私隱條款"
-            }
+            "title": "私隱條款"
         }
     },
     "action": {

@@ -805,33 +805,7 @@
         "privacy": {
             "title": "Gizlilik Politikası",
             "par1": "{{oengus-link}} adresinden erişilebilen Oengus'ta ana önceliklerimizden biri ziyaretçilerimizin gizliliğidir. Bu Gizlilik Politikası belgesi, Oengus tarafından toplanan ve kaydedilen bilgi türlerini ve bunları nasıl kullandığımızı içerir.",
-            "cookies": {
-                "title": "Çerezler ve Web İşaretleri",
-                "par1": "Diğer tüm web siteleri gibi Oengus da 'çerezler' kullanır. Bu çerezler, ziyaretçilerin tercihleri ve web sitesinde ziyaretçinin eriştiği veya ziyaret ettiği sayfalar dahil olmak üzere bilgileri depolamak için kullanılır. Bilgiler, web sayfası içeriğimizi ziyaretçilerin tarayıcı türüne ve/veya diğer bilgilere göre özelleştirerek kullanıcı deneyimini optimize etmek için kullanılır."
-            },
-            "thirdParty": {
-                "title": "Üçüncü Taraf Gizlilik Politikaları",
-                "par1": "Oengus'un Gizlilik Politikası diğer reklamverenler veya web siteleri için geçerli değildir.",
-                "par2": "Bireysel tarayıcı seçenekleriniz aracılığıyla çerezleri devre dışı bırakmayı seçebilirsiniz. Belirli web tarayıcılarında çerez yönetimi hakkında daha ayrıntılı bilgi edinmek için tarayıcıların ilgili web sitelerinde bulunabilir."
-            },
-            "children": {
-                "par1": "Önceliğimizin bir diğer kısmı da interneti kullanırken çocuklar için koruma eklemektir. Ebeveynleri ve velileri çevrimiçi aktivitelerini gözlemlemeye, katılmaya ve/veya izlemeye ve yönlendirmeye teşvik ediyoruz.",
-                "title": "Çocuk Bilgileri",
-                "par2": "Oengus, 13 yaşın altındaki çocuklardan bilerek herhangi bir Kişisel Tanımlayıcı Bilgi toplamaz. Çocuğunuzun bu tür bilgileri web sitemizde sağladığını düşünüyorsanız, derhal bizimle iletişime geçmenizi şiddetle tavsiye ederiz ve derhal kaldırmak için elimizden gelen çabayı göstereceğiz. Bu tür bilgiler kayıtlarımızdan alınmıştır."
-            },
-            "consent": {
-                "title": "Onay",
-                "par1": "Web sitemizi kullanarak Gizlilik Politikamızı ve Şartlar ve Koşullarını kabul etmiş olursunuz."
-            },
             "par2": "Başka sorularınız varsa veya Gizlilik Politikamız hakkında daha fazla bilgiye ihtiyacınız varsa bizimle iletişime geçmekten çekinmeyin.",
-            "log": {
-                "title": "Günlük Dosyaları",
-                "par1": "Oengus, günlük dosyalarını kullanma konusunda standart bir prosedür izler. Bu dosyalar ziyaretçilerin web sitelerini ziyaret etmelerini günlüğe kaydeder. Tüm barındırma şirketleri bunu yapar ve barındırma hizmetlerinin analitiğinin bir parçasıdır. Günlük dosyaları tarafından toplanan bilgiler arasında internet protokolü (IP) adresleri, tarayıcı türü, İnternet Servis Sağlayıcısı (ISP), tarih ve saat damgası, yönlendiren/çıkış sayfaları ve muhtemelen tıklama sayısı yer alır. Bunlar kişisel olarak tanımlanabilecek herhangi bir bilgiyle bağlantılı değildir. Bilgilerin amacı eğilimleri analiz etmek, siteyi yönetmek, kullanıcıların web sitesindeki hareketlerini izlemek ve demografik bilgileri toplamaktır."
-            },
-            "online": {
-                "title": "Yalnızca Çevrimiçi Gizlilik Politikası",
-                "par1": "Bu Gizlilik Politikası yalnızca çevrimiçi etkinliklerimiz için geçerlidir ve Oengus'ta paylaştıkları ve/veya topladıkları bilgiler açısından web sitemizi ziyaret edenler için geçerlidir. Bu politika, çevrimdışı olarak veya bu web sitesi dışındaki kanallar aracılığıyla toplanan hiçbir bilgi için geçerli değildir."
-            },
             "par3": "Uyuşmazlık durumunda bu politikanın İngilizce versiyonu önceliklidir."
         }
     },

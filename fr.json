@@ -17,33 +17,7 @@
         "privacy": {
             "title": "Politique de confidentialité",
             "par3": "En cas de conflit, la version anglaise de cette politique prévaut.",
-            "log": {
-                "title": "Fichiers journaux",
-                "par1": "Oengus suit une procédure standard d'utilisation des fichiers journaux. Ces fichiers enregistrent les visiteurs lorsqu'ils visitent des sites Web. Toutes les sociétés d'hébergement le font et font partie de l'analyse des services d'hébergement. Les informations collectées par les fichiers journaux incluent les adresses IP (protocole Internet), le type de navigateur, le fournisseur d'accès Internet (FAI), l'horodatage, les pages de renvoi/sortie et éventuellement le nombre de clics. Ceux-ci ne sont liés à aucune information personnellement identifiable. Le but de l'information est d'analyser les tendances, d'administrer le site, de suivre le mouvement des utilisateurs sur le site Web et de recueillir des informations démographiques."
-            },
             "par1": "Chez Oengus, accessible depuis {{oengus-link}}, l'une de nos principales priorités est la confidentialité de nos visiteurs. Ce document de politique de confidentialité contient des types d'informations qui sont collectées et enregistrées par Oengus et comment nous les utilisons.",
-            "thirdParty": {
-                "title": "Politiques de confidentialité des tiers",
-                "par1": "La politique de confidentialité d'Oengus ne s'applique pas aux autres annonceurs ou sites Web.",
-                "par2": "Vous pouvez choisir de désactiver les cookies via les options de votre navigateur. Pour connaître des informations plus détaillées sur la gestion des cookies avec des navigateurs Web spécifiques, vous pouvez les trouver sur les sites Web respectifs des navigateurs."
-            },
-            "children": {
-                "title": "Informations sur les enfants",
-                "par1": "Une autre de nos priorités est de renforcer la protection des enfants lorsqu'ils utilisent l'internet. Nous encourageons les parents et les tuteurs à observer leurs activités en ligne, à y participer et/ou à les surveiller et à les guider.",
-                "par2": "Oengus ne collecte sciemment aucune information personnelle identifiable auprès d'enfants de moins de 13 ans. Si vous pensez que votre enfant a fourni ce type d'informations sur notre site Web, nous vous encourageons fortement à nous contacter immédiatement et nous ferons de notre mieux pour supprimer rapidement ces informations de nos dossiers."
-            },
-            "consent": {
-                "title": "Consentir",
-                "par1": "En utilisant notre site web, vous consentez par la présente à notre politique de confidentialité et acceptez ses conditions générales."
-            },
-            "online": {
-                "title": "Politique de confidentialité en ligne uniquement",
-                "par1": "Cette politique de confidentialité ne s'applique qu'à nos activités en ligne et est valable pour les visiteurs de notre site web en ce qui concerne les informations qu'ils partagent et/ou collectent sur Oengus. Cette politique ne s'applique pas aux informations collectées hors ligne ou via d'autres canaux que ce site web."
-            },
-            "cookies": {
-                "title": "Cookies et balises Web",
-                "par1": "Comme tout autre site web, Oengus utilise des \"cookies\". Ces cookies sont utilisés pour stocker des informations, y compris les préférences des visiteurs et les pages du site Web auxquelles le visiteur a accédé ou qu'il a visitées. Ces informations sont utilisées pour optimiser l'expérience des utilisateurs en personnalisant le contenu de nos pages web en fonction du type de navigateur des visiteurs et/ou d'autres informations."
-            },
             "par2": "Si vous avez des questions supplémentaires ou souhaitez plus d'informations sur notre politique de confidentialité, n'hésitez pas à nous contacter."
         }
     },

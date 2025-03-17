@@ -31,7 +31,13 @@
         "save": "Sauvegarder",
         "sendTweet": "Tweeter",
         "submit": "Envoyer",
-        "shareMastodon": "Partager sur mastodon"
+        "shareMastodon": "Partager sur mastodon",
+        "delete": "Supprimer",
+        "edit": "Modifier",
+        "create": "Créer",
+        "import": "Importer",
+        "share": "Partager",
+        "login": "Se connecter"
     },
     "alert": {
         "category": {
@@ -124,7 +130,9 @@
             "login": {
                 "disabledAccount": "Votre compte est désactivé. Si vous souhaitez l'utiliser à nouveau, veuillez contacter un administrateur.",
                 "error": "Une erreur est survenue lors de l'authentification. Merci de réessayer ou de contacter un administrateur.",
-                "usernameExists": "Le nom associé au compte avec lequel vous essayez de vous inscrire existe déjà. Veuillez vous assurer que vous n'avez pas déjà un profil Oengus synchronisé avec un autre compte externe. Si vous pensez qu'il s'agit d'un faux positif, veuillez contacter un administrateur."
+                "usernameExists": "Le nom associé au compte avec lequel vous essayez de vous inscrire existe déjà. Veuillez vous assurer que vous n'avez pas déjà un profil Oengus synchronisé avec un autre compte externe. Si vous pensez qu'il s'agit d'un faux positif, veuillez contacter un administrateur.",
+                "passwordResetRequired": "Afin de pouvoir vous connecter, vous allez devoir réinitialiser votre mot de passe, nos excuses pour ça.",
+                "noAccountFound": "Compte non trouvé, veuillez vous enregistrer avec un nouveau compte ou vous synchroniser avec un compte déjà créé."
             },
             "sync": {
                 "alreadySynced": "Erreur : ce compte est déjà utilisé",
@@ -134,6 +142,10 @@
                 "error": "Erreur lors de la mise à jour de l'utilisateur",
                 "success": "Utilisateur mis à jour"
             }
+        },
+        "generic": {
+            "clipboardOk": "Copié dans votre presse papier !",
+            "validationError": "Il y a eu un problème, pour plus d'informations veuillez regardez les erreurs de validations. Si le problème persiste, veuillez contacter le support sur discord."
         }
     },
     "calendar": {
@@ -160,7 +172,8 @@
         "emu": "[Emu]",
         "disabled": "Désactivé",
         "enabled": "Activé",
-        "non_select": "Aucune sélection"
+        "non_select": "Aucune sélection",
+        "loading": "Chargement..."
     },
     "homepage": {
         "ends": "Se termine {{duration}}",
@@ -193,7 +206,13 @@
         },
         "welcomeTitle": "Bienvenue sur Oengus !",
         "sponsors": {
-            "title": "Sponsors"
+            "title": "Sponsors",
+            "patreon": {
+                "but_patreon": "Oengus est entièrement gratuit d'utilisation pour tout le monde grâce à nos {{patrons}} !",
+                "patrons": "donateurs",
+                "nobody": "Oengus n'a aucun sponsors !",
+                "see_footer": "Nous affichons avec fierté nos donateurs au bas de chaque page !"
+            }
         },
         "submissions_close": "Fin des candidatures {{duration}}"
     },
@@ -213,7 +232,8 @@
             "hide": "Masquer le mot de passe",
             "show": "Rendre le mot de passé visible"
         },
-        "title": "Connectez-vous à votre compte Oengus"
+        "title": "Connectez-vous à votre compte Oengus",
+        "forgotPass": "Vous avez oublié votre mot de passe ?"
     },
     "marathon": {
         "donate": {
@@ -346,7 +366,9 @@
             "settings": "Paramètres",
             "submitRuns": "Postuler",
             "tracker": "Tracker",
-            "viewSubmissions": "Voir les candidatures"
+            "viewSubmissions": "Voir les candidatures",
+            "schedules": "Plannings",
+            "manageSchedules": "Gestion des plannings"
         },
         "new": {
             "description": "Les informations suivantes sont nécessaires à la création d'un marathon. Une fois créé, vous pourrez rajouter plus de détails.",
@@ -360,25 +382,30 @@
                 "csv": "Exporter en CSV",
                 "ics": "Exporter en ICS",
                 "json": "Exporter en JSON (Horaro)",
-                "title": "Exporter le planning"
+                "title": "Exporter le planning",
+                "gdq": "Traqueur des donations GDQ (outil externe)"
             },
             "management": {
                 "action": {
                     "addRun": "Ajouter une run",
                     "addSetupBlock": "Ajouter bloc tampon",
                     "alreadyPublished": "Planning déjà publié",
-                    "publish": "Publier le planning"
+                    "publish": "Publier le planning",
+                    "published": "Le planning a été publié ! La page va montrer ces changements dans 2 à 5 minutes !"
                 },
                 "help": {
                     "dragAndDrop": "Utilisez les flèches sur chaque ligne pour ajouter ou retirer des runs du programme. Vous pouvez glisser et déposer les lignes sur le programme en utilisant le symbole",
-                    "save": "Cliquez sur \"Sauvegarder\" pour enregistrer un brouillon de planning ou mettre à jour le planning publié. Cliquez sur \"Publier le planning\" pour que le planning soit rendu public. Attention : une fois le planning publié, la date de fin du marathon sera automatiquement recalculée à chaque mise à jour du planning."
+                    "save": "Cliquez sur \"Sauvegarder\" pour enregistrer un brouillon de planning ou mettre à jour le planning publié. Cliquez sur \"Publier le planning\" pour que le planning soit rendu public. Attention : une fois le planning publié, la date de fin du marathon sera automatiquement recalculée à chaque mise à jour du planning.",
+                    "setupBlock": "Laisser vide pour le texte par défaut",
+                    "patronNudge": "Les marathons créés par des donateurs de Oengus sur Patreon ont la capacité de créer plus d'un planning. Si vous voulez plus de planning sur votre marathon, s'il vous plaît considérez de nous soutenir sur Patreon."
                 },
                 "schedule": "Planning",
                 "selectedRuns": "Runs sélectionnées",
                 "title": "Gestion du planning",
                 "customData": {
                     "text": "Cacher/Afficher les champs personnalisés",
-                    "inputText": "Données personnalisées stockées sous forme de texte, vous permettant d'ajouter des données \"cachées\" à la ligne de planning"
+                    "inputText": "Données personnalisées stockées sous forme de texte, vous permettant d'ajouter des données \"cachées\" à la ligne de planning",
+                    "newTick": "Montrer/Cacher les paramètres pour TOUTES les lignes"
                 },
                 "cacheWarning": {
                     "line2": "Cela signifie que le planning peut mettre du temps à se mettre à jour sur la page de votre marathon.",
@@ -388,7 +415,38 @@
                     "line1": "Pour maintenir une charge raisonnable sur nos serveurs, nous avons mis en place un cache sur Oengus."
                 },
                 "hideCompleteUsers": "Cacher les utilisateurs dans la chronologie lorsqu'ils n'ont plus de courses dans les \"courses sélectionnées\"",
-                "markdown": "Vous pouvez utiliser la syntaxe Markdown de base (**bold**, _italic_, et [link name](https://oengus.io/)) dans les champs jeu et catégorie."
+                "markdown": "Vous pouvez utiliser la syntaxe Markdown de base (**bold**, _italic_, et [link name](https://oengus.io/)) dans les champs jeu et catégorie.",
+                "settings": {
+                    "createTitle": "Créer un nouveau planning",
+                    "editTitle": "Modifier : {{scheduleName}}",
+                    "slug": {
+                        "error": {
+                            "max": "Le slug est trop long",
+                            "min": "Le slug est trop court",
+                            "pattern": "Le slug contient des caractères interdits",
+                            "exists": "Vous avez déjà créé un planning avec ce slug",
+                            "required": "Une slug est requise"
+                        },
+                        "label": "Url-slug"
+                    },
+                    "customLabel": "Label customisé",
+                    "name": {
+                        "error": {
+                            "pattern": "Le nom du planning contient des caractères interdits",
+                            "required": "Un nom de planning est requis",
+                            "max": "Le nom du planning est trop long",
+                            "min": "Le nom du planning est trop court"
+                        },
+                        "label": "Nom du planning"
+                    }
+                },
+                "overview": {
+                    "nothingFound": "Pas de planning trouvé",
+                    "title": "Gérer ce qui existe ou {{create-new}}",
+                    "scheduleHeader": "Vos plannings :",
+                    "create-new": "créer un nouveau planning"
+                },
+                "plsUseTheNewUi": "Vous êtes en train d'utiliser l'ancienne interface pour gérer des plannings, elle est instable et peut se casser. S'il vous plait changez pour la page marquée comme \"nouvelle\" pour une meilleur expérience !"
             },
             "nextRun": "Prochaine run {{duration}}",
             "setupBlock": "Bloc tampon",
@@ -415,6 +473,18 @@
                 "SINGLE": "Run solo",
                 "RELAY_RACE": "Course relai",
                 "RELAY": "Relai"
+            },
+            "import": {
+                "json": "Importer depuis un JSON (Horaro)",
+                "trigger": "Importer un planning depuis un fichier",
+                "csv": "Importer depuis un CSV"
+            },
+            "clone": {
+                "help1": "Afin d'importer ***toutes*** les runs d'un autre planning vous devez d'abord en sélectionner un de la liste en-dessous.",
+                "help2": "Une fois que vous avez sélectionné un planning de la liste en-dessous, s'il vous plaît appuyer sur *Importer* pour commencer le processus d'importation.",
+                "title": "Dupliquer le planning !",
+                "placeholder": "Sélectionner un planning...",
+                "trigger": "Copier depuis un planning existant"
             }
         },
         "selection": {
@@ -932,7 +1002,11 @@
         "patrons": "Nos donateurs",
         "displayNameNotification": "Hey ! Il semble que votre nom d'affichage ne figure pas sur votre profil. Va dans tes paramètres pour le définir !",
         "mastodon": "Suivez-nous sur Mastodon",
-        "register": "S'inscrire"
+        "register": "S'inscrire",
+        "email-verification": {
+            "request-btn": "Demander un nouveau mail de vérification",
+            "message": "Salut ! Il semblerait que vous n'avez pas encore vérifié votre adresse e-mail. Les utilisateurs sans adresse e-mail vérifiée peuvent être supprimé au bout d'un moment."
+        }
     },
     "user": {
         "profile": {
@@ -1060,13 +1134,18 @@
             "displayName": {
                 "error": {
                     "max": "Le nom d'affichage est trop long, le maximum est de 32 caractères.",
-                    "min": "Le nom d'affichage est trop court, au moins 1 caractère est nécessaire"
+                    "min": "Le nom d'affichage est trop court, au moins 1 caractère est nécessaire",
+                    "required": "Un nom d'affichage est requis"
                 },
                 "help": "Si vous utilisez un alias ou si vous voulez quelque chose de différent de votre nom d'utilisateur, vous pouvez utiliser ce champ pour définir la façon dont vous êtes affiché sur Oengus.",
                 "label": "Nom d'affichage"
             },
             "password": {
-                "label": "Mot de passe"
+                "label": "Mot de passe",
+                "changeLabel": "Modifier le mot de passe",
+                "error": {
+                    "required": "Un mot de passe est requis"
+                }
             },
             "mfa": {
                 "modal": {
@@ -1427,7 +1506,8 @@
         "TWITTER": "Twitter",
         "SPEEDRUNCOM": "speedrun.com",
         "YOUTUBE": "YouTube",
-        "MASTODON": "Mastodon"
+        "MASTODON": "Mastodon",
+        "BLUESKY": "Bluesky"
     },
     "news": {
         "title": "Actualités"
@@ -1441,8 +1521,20 @@
             "instructions": "Afin de réinitialiser votre mot de passe, veuillez entrer votre adresse e-mail.\n    Si votre adresse e-mail est présente dans notre système, nous vous enverrons un lien pour que vous puissiez réinitialiser votre mot de passe.",
             "title": "Réinitialisez votre mot de passe !",
             "request": "Demander une réinitialisation de mot de passe",
-            "submit": "Réinitialisez votre mot de passe !"
+            "submit": "Réinitialisez votre mot de passe !",
+            "success": "Votre mot de passe a été réinitialisé. Vous pouvez maintenant vous connecter avec votre mot de passe.",
+            "requested": "Une demande de réinitialisation de mot de passe à été envoyé à votre adresse mail. Veuillez vérifier votre mail pour les instructions suivantes.",
+            "error": {
+                "PASSWORD_RESET_CODE_INVALID": "Votre jeton de réinitialisation de mot de passe est invalide, veuillez demander un nouveau mail.",
+                "EMAIL_VERIFICATION_REQUIRED": "Veuillez vérifier votre adresse e-mail avant d'utiliser cette fonctionnalité."
+            }
         },
         "emailVerificationRequired": "Veuillez vérifier votre adresse e-mail avant d'utiliser cette fonctionnalité."
+    },
+    "register": {
+        "submit": "S'inscrire !",
+        "login_hint": "Sinon, vous pouvez déjà {{login-link}} si vous voulez.",
+        "email_sent": "Nous vous avons envoyé un e-mail dans votre boîte mail, veuillez cliquer sur le lien à l'intérieur pour vérifier votre adresse e-mail.",
+        "thank_you": "Merci !"
     }
 }

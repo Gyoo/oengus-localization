@@ -710,7 +710,8 @@
                 "ics": "Vie ICS",
                 "json": "Vie JSON (Horaro)",
                 "csv": "Vie CSV",
-                "title": "Vie aikataulu"
+                "title": "Vie aikataulu",
+                "gdq": "GDQ-lahjoituksien seuraaja (ulkopuolinen työkalu)"
             },
             "setupBlock": "Järjestelytauko",
             "clone": {
@@ -931,9 +932,9 @@
         },
         "privacy": {
             "title": "Tietosuojakäytäntö",
-            "par1": "Oenguksella, jonne pääset tästä {{oengus-link}} me sitoutumme suojelemaan kävijöidemme yksityisyyttä. Tämä tietosuojakäytäntö sisältää tietoa siitä minkälaista tietoa keräämme ja tallennamme sivuston kävijöistä.",
+            "par1": "Oenguksella, jonne pääset tästä {{oengus-link}} me sitoutumme suojelemaan kävijöidemme yksityisyyttä. Tämä tietosuojakäytäntö sisältää tietoa siitä minkälaista tietoa keräämme ja tallennamme sivuston kävijöistä. Tämän dokumentin englanninkielinen versio pätee aina, käännös on olemassa vain käyttäjän ymmärrystä varten.",
             "par2": "Jos sinulla on kysymyksiä tai haluat lisätietoa tästä tietosuojakäytännöstä, älä epäröi ottaa yhteyttä meihin.",
-            "par3": "Tapauksessa, kun tämä tietosuojakäytäntö on ristiriidassa englanninkielisen version kanssa, englanninkielinen versio pätee."
+            "par3": "Tapauksessa, kun tämä tietosuojakäytäntö on ristiriidassa englanninkielisen version kanssa, englanninkielinen versio pätee. Tekstistä ei välttämättä ole käännöstä tehtynä."
         }
     },
     "calendar": {

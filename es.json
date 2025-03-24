@@ -131,7 +131,8 @@
                 "disabledAccount": "Tu cuenta ha sido deshabilitada. Si deseas usarla de nuevo, por favor, contacta con un administrador.",
                 "error": "Ha ocurrido un error durante la autentificación. Inténtelo de nuevo o contacta con un administrador.",
                 "usernameExists": "El nombre de usuario vinculado a esta cuenta que quieres acceder ya existe actualmente. Asegúrate de que no has creado un perfil de Oengus con un método de acceso diferente. Si crees que es un error, por favor, contacta con un administrador.",
-                "noAccountFound": "Cuenta no encontrada, por favor regístrate para crear una nueva cuenta o sincroniza con una cuenta existente."
+                "noAccountFound": "Cuenta no encontrada, por favor regístrate para crear una nueva cuenta o sincroniza con una cuenta existente.",
+                "passwordResetRequired": "Para iniciar sesión, tendrás que restablecer tu contraseña, lo sentimos."
             },
             "sync": {
                 "alreadySynced": "Error: Esta cuenta ya está en uso",
@@ -381,7 +382,8 @@
                 "csv": "Exportar a CSV",
                 "ics": "Exportar a ICS",
                 "json": "Exportar a JSON (Horaro)",
-                "title": "Exportar horario"
+                "title": "Exportar horario",
+                "gdq": "Rastreador de donaciones de GDQ (herramienta externa)"
             },
             "management": {
                 "action": {
@@ -1504,7 +1506,8 @@
         "TWITTER": "Twitter",
         "SPEEDRUNCOM": "speedrun.com",
         "MASTODON": "Mastodon",
-        "YOUTUBE": "YouTube"
+        "YOUTUBE": "YouTube",
+        "BLUESKY": "Bluesky"
     },
     "news": {
         "title": "Noticias"

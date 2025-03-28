@@ -1044,7 +1044,7 @@
     "twitter": "Follow us on Twitter",
     "mastodon": "Follow us on Mastodon",
     "email-verification": {
-      "message": "Hey! It seems that you have not verified your email address yet. Users without a verified email might get deleted in the future.",
+      "message": "Please verify your email address. Until then you will not be able to do anything, including but not limited to submitting to events.",
       "request-btn": "Request new verification email"
     }
   },

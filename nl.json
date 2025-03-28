@@ -989,7 +989,7 @@
         "displayNameNotification": "Hey! Het lijkt er op dat jij geen display naam op jouw profiel hebt. Je kan deze in je instellingen instellen!",
         "register": "Registreer",
         "email-verification": {
-            "message": "Hoi! Het lijkt er op dat uw e-mail adres not niet geverifieerd is. Gebruikers met een ongeverifieerde e-mail hebben de kans om verwijdert te worden in de toekomst.",
+            "message": "Verifier je email adres. Totdat jij dit doet is het niet mogelijk om dingen op de website te doen, zoals submitten in events.",
             "request-btn": "Vraag een nieuwe verificatie aan"
         }
     },

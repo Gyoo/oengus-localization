@@ -30,7 +30,10 @@
         "sendTweet": "ツイート送信",
         "join": "参加",
         "decline": "拒否",
-        "accept": "許可"
+        "accept": "許可",
+        "share": "共有",
+        "import": "輸入",
+        "login": "ログイン"
     },
     "alert": {
         "incentives": {
@@ -139,7 +142,8 @@
         "emu": "[エミュ]",
         "non_select": "選択されていません",
         "disabled": "無効",
-        "enabled": "有効"
+        "enabled": "有効",
+        "loading": "ローディング中"
     },
     "homepage": {
         "ends": "{{duration}}終了",
@@ -828,7 +832,11 @@
     },
     "calendar": {
         "title": "マラソンカレンダー",
-        "help": "イベントをクリックするとそのページに移動します"
+        "help": "イベントをクリックするとそのページに移動します",
+        "endsAt": "終 {{end-time}}",
+        "now": "現在",
+        "allDay": "一日中",
+        "between": "{{time-range}}"
     },
     "country": {
         "IS": "アイスランド",
@@ -1157,7 +1165,8 @@
         "TWITTER": "Twitter",
         "SPEEDRUNCOM": "speedrun.com",
         "YOUTUBE": "YouTube",
-        "MASTODON": "Mastodon"
+        "MASTODON": "Mastodon",
+        "BLUESKY": "Bluesky"
     },
     "news": {
         "title": "News"

@@ -1005,7 +1005,7 @@
         "register": "Registrarse",
         "email-verification": {
             "request-btn": "Solicitar un nuevo correo de verificación",
-            "message": "¡Escucha! Parece que aún no ha verificado su dirección de correo electrónico. Los usuarios sin un correo electrónico verificado podrían ser eliminados en el futuro."
+            "message": "Verifique su dirección de correo electrónico. Hasta entonces no podrá hacer nada, ni siquiera inscribirse en eventos."
         }
     },
     "user": {

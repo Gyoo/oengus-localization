@@ -823,6 +823,12 @@
           "pattern": "Mastodon username does not match 'user@instance.tld'"
         }
       },
+      "bluesky": {
+        "error": {
+          "max": "Bluesky name is too long",
+          "pattern": "Invalid username, make sure you handle starts with '@' (e.g. @oengus.bsky.app)"
+        }
+      },
       "type": {
         "label": "Marathon type",
         "online": "Online",

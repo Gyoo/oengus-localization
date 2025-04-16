@@ -807,26 +807,26 @@
       "title": "Marathon settings",
       "twitch": {
         "error": {
-          "max": "Twitch name is too long",
-          "pattern": "Twitch name is invalid"
+          "pattern": "Twitch name is invalid",
+          "maxlength": "Twitch name is too long"
         }
       },
       "twitter": {
         "error": {
-          "max": "Twitter name is too long",
-          "pattern": "Twitter name is invalid"
+          "pattern": "Twitter name is invalid",
+          "maxlength": "Twitter name is too long"
         }
       },
       "mastodon": {
         "error": {
-          "max": "Mastodon name is too long",
-          "pattern": "Mastodon username does not match 'user@instance.tld'"
+          "pattern": "Mastodon username does not match 'user@instance.tld'",
+          "maxlength": "Mastodon name is too long"
         }
       },
       "bluesky": {
         "error": {
-          "max": "Bluesky name is too long",
-          "pattern": "Invalid username, make sure you handle starts with '@' (e.g. @oengus.bsky.app)"
+          "pattern": "Invalid username, make sure you handle starts with '@' (e.g. @oengus.bsky.app)",
+          "maxlength": "Bluesky name is too long"
         }
       },
       "type": {

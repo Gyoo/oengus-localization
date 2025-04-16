@@ -150,13 +150,13 @@
       "twitter": {
         "error": {
           "pattern": "Twitter-navnet er ugyldig",
-          "max": "Twitter-navnet er for langt"
+          "maxlength": "Twitter-navnet er for langt"
         }
       },
       "twitch": {
         "error": {
           "pattern": "Twitch-navnet er ugyldig",
-          "max": "Twitch-navnet er for langt"
+          "maxlength": "Twitch-navnet er for langt"
         }
       },
       "title": "Maratoninnstillinger",

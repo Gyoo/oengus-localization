@@ -426,6 +426,10 @@
         "title": "Export schedule"
       },
       "management": {
+        "horaro": {
+          "missingFeature": "Oengus currently does not support the ability to customize the columns for your schedule. Desperately need this feature? Try {{horaro}}!",
+          "appName": "Horaro"
+        },
         "plsUseTheNewUi": "You are currently using the old UI for managing schedules, it is unstable and may break. Please switch to the page marked as \"new\" for a better experience!",
         "overview": {
           "title": "Manage existing or {{create-new}}",

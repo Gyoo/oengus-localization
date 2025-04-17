@@ -988,7 +988,7 @@
       "maxNumberOfScreens": "Maximum number of runners per race/coop",
       "multiplayer": {
         "code": {
-          "help": "Please enter below a code to join a multiplayer submission"
+          "help": "If you have received a multiplayer/race code please enter it below to join the category"
         },
         "title": "Multiplayer categories"
       },

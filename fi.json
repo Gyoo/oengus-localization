@@ -184,7 +184,7 @@
           }
         },
         "name": {
-          "label": "Kategoria",
+          "label": "Kategorian nimi",
           "error": {
             "required": "Kategorian nimi vaaditaan"
           }
@@ -1080,7 +1080,7 @@
     "register": "Rekisteröidy",
     "email-verification": {
       "request-btn": "Pyydä uusi vahvistusviesti",
-      "message": "Hei! Näyttää siltä ettet ole vahvistanut sähköpostiosoitettasi. Käyttäjät, joilla ei ole vahvistettua sähköpostiosoitetta saatetaan poistaa."
+      "message": "Hei! Näyttää siltä ettet ole vahvistanut sähköpostiosoitettasi. Ennen kuin olet vahvistanut sähköpostiosoitteesi et voi tehdä mitään. Tähän sisältyy myös ilmoittautumiset tapahtumiin."
     }
   },
   "user": {

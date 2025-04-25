@@ -913,6 +913,12 @@
             "withCode": "Give the following code to other runners so they can join this submission:"
           }
         },
+        "expectedRunners": {
+          "label": "Expected runner count",
+          "help": {
+            "explanation": "Enter the number of how many runners are expected for this category. This number includes yourself. So if this category is a race between you and someone else, you need to enter 2."
+          }
+        },
         "description": {
           "error": {
             "required": "Category description is required"
@@ -936,7 +942,9 @@
           "label": "Category name"
         },
         "opponent": {
-          "with": "With:"
+          "with": "With:",
+          "andMore": "{{opponentList}}, and {{count}} more",
+          "waiting": "Waiting for {{count}} runners to join..."
         },
         "type": {
           "label": "Type"

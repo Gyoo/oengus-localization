@@ -765,7 +765,8 @@
                 "usernameExists": "Il username dell'account esiste già. Assicurati di non aver già creato un profilo su Oengus con un metodo di login differente. Se pensi si tratti di un errore, si prega di contattare un amministratore.",
                 "error": "Si è verificato un errore durante il login. Si prega di riprovare o contattare un amministratore.",
                 "disabledAccount": "Il tuo account è disabilitato. Se desideri utilizzarlo di nuovo, si prega di contattare un amministratore.",
-                "noAccountFound": "Account non trovato, registra un nuovo account o sincronizza con un account esistente."
+                "noAccountFound": "Account non trovato, registra un nuovo account o sincronizza con un account esistente.",
+                "passwordResetRequired": "Siamo spiacenti, ma per eseguire l'accesso devi ripristinare la tua password."
             },
             "deactivate": {
                 "success": "Il tuo account è stato disattivato"
@@ -875,7 +876,8 @@
         "create": "Crea",
         "edit": "Modifica",
         "delete": "Elimina",
-        "login": "accedi"
+        "login": "accedi",
+        "shareBluesky": "Pubblica su Bluesky"
     },
     "global": {
         "disabled": "Disattivato",

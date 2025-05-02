@@ -37,7 +37,8 @@
         "create": "Creado",
         "delete": "Borrar",
         "share": "Compartir",
-        "import": "Importar"
+        "import": "Importar",
+        "shareBluesky": "Publicar en bluesky"
     },
     "alert": {
         "category": {
@@ -446,7 +447,11 @@
                     "nothingFound": "No hay horarios",
                     "title": "Gestionar existente o {{create-new}}"
                 },
-                "plsUseTheNewUi": "Actualmente estás utilizando la antigua interfaz de usuario para la gestión de horarios, es inestable y puede fallar. ¡Por favor, cambia a la página marcada como \"nueva\" para una mejor experiencia!"
+                "plsUseTheNewUi": "Actualmente estás utilizando la antigua interfaz de usuario para la gestión de horarios, es inestable y puede fallar. ¡Por favor, cambia a la página marcada como \"nueva\" para una mejor experiencia!",
+                "horaro": {
+                    "appName": "Horaro",
+                    "missingFeature": "Actualmente Oengus no soporta la personalización de columnas para tu horario. ¿Necesitas esta característica urgentemente? ¡Prueba {{horaro}}!"
+                }
             },
             "nextRun": "Próximo run {{duration}}",
             "setupBlock": "Bloque de reserva",
@@ -800,6 +805,12 @@
                     "pattern": "El nombre de usuario de Mastodon no coincide con 'usuario@instancia.tld'",
                     "maxlength": "El nombre de Mastodon es demasiado largo"
                 }
+            },
+            "bluesky": {
+                "error": {
+                    "pattern": "Nombre de usuario inválido, asegúrate de que comienza con '@' (por ejemplo, @oengus.bsky.app)",
+                    "maxlength": "El nombre de Bluesky es demasiado largo"
+                }
             }
         },
         "submissions": {
@@ -885,7 +896,9 @@
                     "label": "Nombre de la categoría"
                 },
                 "opponent": {
-                    "with": "Con:"
+                    "with": "Con:",
+                    "andMore": "{{opponentList}}, y {{count}} más",
+                    "waiting": "Esperando a {{count}} corredores para unirse..."
                 },
                 "type": {
                     "label": "Tipo"
@@ -895,6 +908,12 @@
                         "required": "Se requiere un enlace del vídeo"
                     },
                     "label": "Enlace del vídeo"
+                },
+                "expectedRunners": {
+                    "help": {
+                        "explanation": "Introduce el número de cuántos corredores se esperan para esta categoría. Este número te incluye a ti mismo. Así que si esta categoría es una carrera entre tu y alguien más, necesitas meter 2."
+                    },
+                    "label": "Número de corredores esperados"
                 }
             },
             "customField": {
@@ -938,7 +957,7 @@
             "maxNumberOfScreens": "Número máximo de runners por carrera/cooperativo",
             "multiplayer": {
                 "code": {
-                    "help": "Por favor, introduce abajo el código para unirte a una postulación multijugador"
+                    "help": "Si has recibido un código de multijugador/carrera, por favor introdúcelo abajo para unirte a la categoría"
                 },
                 "title": "Categorías multijugador"
             },

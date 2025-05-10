@@ -55,7 +55,8 @@
         "login": "Zaloguj",
         "create": "Stwórz",
         "edit": "Edytuj",
-        "delete": "Usuń"
+        "delete": "Usuń",
+        "shareBluesky": "Udostępnij na bluesky"
     },
     "alert": {
         "category": {

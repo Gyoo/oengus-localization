@@ -178,7 +178,8 @@
                 "category": "Categoria",
                 "answer": "Risposta",
                 "actions": "Azioni",
-                "estimate": "Stima"
+                "estimate": "Stima",
+                "date": "Data"
             },
             "submission": {
                 "delete": "Rimuovi proposta. Tutte le proposte di questo utente per questa maratona saranno eliminate."
@@ -221,7 +222,8 @@
                 "incentives": "Incentivi",
                 "general": "Impostazioni generali",
                 "submissions": "Proposte",
-                "dangerZone": "Impostazioni rischiose"
+                "dangerZone": "Impostazioni rischiose",
+                "discord": "Discord"
             },
             "shortname": {
                 "error": {
@@ -267,7 +269,8 @@
             "incentivesTitle": "Impostazioni incentivi",
             "incentives": {
                 "label": "Status incentivi",
-                "hasIncentives": "Questa maratona ha degli incentivi"
+                "hasIncentives": "Questa maratona ha degli incentivi",
+                "disabledNotification": "Gli incentivi sono attualmente disattivati perché inaffidabili e privi di un'opzione per filtrarli. Non c'è una stima su quando questa funzionalità verrà ripristinata, ma lo annunceremo nel caso accada."
             },
             "generalTitle": "Impostazioni generali",
             "endDate": {
@@ -458,6 +461,18 @@
             },
             "country": {
                 "label": "Paese"
+            },
+            "mastodon": {
+                "error": {
+                    "maxlength": "Il nome Mastodon è troppo lungo",
+                    "pattern": "Il nome utente Mastodon non corrisponde a 'user@instance.tld'"
+                }
+            },
+            "bluesky": {
+                "error": {
+                    "pattern": "Nome utente non valido, assicurati che inizi con '@' (es. @oengus.bsky.app)",
+                    "maxlength": "Il nome Bluesky è troppo lungo"
+                }
             }
         },
         "selection": {
@@ -501,7 +516,7 @@
         },
         "schedule": {
             "table": {
-                "setup": "Tempo di preparazione",
+                "setup": "Tempo di preparazione post-gara",
                 "runner": "Runner",
                 "placeholder": "Trascina qui qualsiasi run dalla tabella a sinistra. Questo messaggio sparirà automaticamente quando almeno una run sarà presente nella programmazione.",
                 "game": "Gioco",
@@ -510,7 +525,8 @@
                 "type": "Tipologia",
                 "time": "Orario",
                 "estimate": "Stima",
-                "actions": "Azioni"
+                "actions": "Azioni",
+                "link": "Link"
             },
             "type": {
                 "SINGLE": "Run singola",
@@ -528,19 +544,66 @@
                     "addSetupBlock": "Aggiungi intermezzo",
                     "publish": "Pubblica programmazione",
                     "alreadyPublished": "Programmazione già pubblicata",
-                    "addRun": "Aggiungi run"
+                    "addRun": "Aggiungi run",
+                    "published": "La programmazione è stata pubblicata! La pagina mostrerà i cambiamenti in 2-5 minuti!"
                 },
                 "title": "Gestione programmazione",
                 "selectedRuns": "Run selezionate",
                 "schedule": "Programmazione",
                 "help": {
                     "save": "Clicca su \"Salva\" per salvare una bozza o aggiornare la programmazione. Clicca su \"Pubblica programmazione\" per rendere la programmazione pubblica. Attenzione: una volta pubblicata, la data di fine maratona sarà ricalcolata automaticamente ad ogni aggiornamento della programmazione.",
-                    "dragAndDrop": "Usa le frecce su ogni linea per aggiungere o rimuovere una run dalla programmazione. Puoi trascinare le linee sulla programmazione usando il simbolo"
+                    "dragAndDrop": "Usa le frecce su ogni linea per aggiungere o rimuovere una run dalla programmazione. Puoi trascinare le linee sulla programmazione usando il simbolo",
+                    "setupBlock": "Lascia vuoto per testo predefinito",
+                    "patronNudge": "Le maratone create dalle persone che supportano Oengus su patreon hanno la possibilità di creare più di una programmazione. Se vuoi più programmazioni nella tua maratona, considera di supportarci su patreon."
                 },
                 "customData": {
                     "text": "Mostra/Nascondi campi di dati personalizzati",
-                    "inputText": "Dati personalizzati sotto forma di testo, questo campo permette di inserire dati \"nascosti\" a questa riga della programmazione"
-                }
+                    "inputText": "Dati personalizzati sotto forma di testo, questo campo permette di inserire dati \"nascosti\" a questa riga della programmazione",
+                    "newTick": "Mostra/Nascondi imoostazioni per TUTTE le righe"
+                },
+                "horaro": {
+                    "missingFeature": "Oengus attualmente non supporta la possibilità di personalizzare le colonne per i tuoi programmi. Ti serve necessariamente questa funzione? Prova {{horaro}}!",
+                    "appName": "Horaro"
+                },
+                "settings": {
+                    "editTitle": "Modifica: {{scheduleName}}",
+                    "name": {
+                        "error": {
+                            "max": "Il nome della programmazione è troppo lungo",
+                            "min": "Il nome della programmazione è troppo corto",
+                            "pattern": "Il nome della programmazione contiene caratteri non consentiti",
+                            "required": "È necessario un nome per la programmazione"
+                        },
+                        "label": "Nome programmazione"
+                    },
+                    "slug": {
+                        "error": {
+                            "required": "È necessario uno slug",
+                            "min": "Lo slug è troppo corto",
+                            "max": "Lo slug è troppo lungo",
+                            "pattern": "Lo slug contiene caratteri non consentiti",
+                            "exists": "Hai già creato una programmazione con questo slug"
+                        },
+                        "label": "Slug"
+                    },
+                    "customLabel": "Etichetta personalizzata",
+                    "createTitle": "Crea una nuova programmazione"
+                },
+                "cacheWarning": {
+                    "line3": "Il pulsante sarà abilitato tra 5 secondi",
+                    "title": "Una volta pubblicata, la tua programmazione impieghierà 2-5 minuti per essere attivata.",
+                    "line2": "Ciò significa che potrebbe richiedere un po' di tempo prima di vedere la programmazione aggiornata nella pagina della tua maratona.",
+                    "line1": "Per tenere basso il caricamento sui nostri server abbiamo implementato una cache su Oengus."
+                },
+                "hideCompleteUsers": "Nascondi gli utenti nella cronologia quando non hanno più corse nelle \"corse selezionate\"",
+                "plsUseTheNewUi": "Al momento stai utilizzando la vecchia UI per gestire le tue programmazioni, la quale è instabile e potrebbe non funzionare. Passa alla pagina contrassegnata come \"nuova\" per una migliore esperienza!",
+                "overview": {
+                    "scheduleHeader": "Le tue programmazioni:",
+                    "create-new": "crea una nuova programmazione",
+                    "nothingFound": "Nessuna programmazione trovata",
+                    "title": "Gestisci esistenti o {{create-new}}"
+                },
+                "markdown": "Puoi usare la sintassi basica di Markdown (**grassetto**, _corsivo_, e [nome link](https://oengus.io/)) nel gioco e nei campi categoria."
             },
             "setupBlock": "Intermezzo",
             "nextRun": "Prossima run: {{duration}}",
@@ -548,10 +611,23 @@
                 "title": "Esporta programmazione",
                 "json": "Esporta come JSON (Horaro)",
                 "ics": "Esporta come ICS",
-                "csv": "Esporta come CSV"
+                "csv": "Esporta come CSV",
+                "gdq": "Tracciatore donazioni GDQ (strumento esterno)"
             },
             "dstChange": "La run contiene un cambiamento tra ora solare e legale.",
-            "currentRun": "Run attuale"
+            "currentRun": "Run attuale",
+            "clone": {
+                "title": "Clona la programmazione!",
+                "help1": "Per importare ***tutte*** le corse da una diversa programmazione devi prima selezionarne una dalla lista qui sotto.",
+                "help2": "Una volta selezionata una programmazione dal menu a discesa qui sotto, premi *Importa* per avviare il processo di importazione.",
+                "trigger": "Copia da una programmazione esistente",
+                "placeholder": "Seleziona una programmazione..."
+            },
+            "import": {
+                "trigger": "Inoorta programmazione da un file",
+                "csv": "Importa da CSV",
+                "json": "Importa da JSON (Horaro)"
+            }
         },
         "new": {
             "title": "Crea una nuova maratona",
@@ -575,7 +651,9 @@
             "admin": "Amministratore",
             "viewSubmissions": "Visualizza proposte",
             "editSubmission": "Modifica proposta",
-            "tracker": "Tracker"
+            "tracker": "Tracker",
+            "manageSchedules": "Gestisci programmazioni",
+            "schedules": "Programmazioni"
         },
         "incentives": {
             "title": "Incentivi",
@@ -800,8 +878,8 @@
         },
         "schedule": {
             "save": {
-                "success": "Programma salvato",
-                "error": "Si è verificato un errore durante il salvataggio del programma"
+                "success": "Programmazione salvata",
+                "error": "Si è verificato un errore durante il salvataggio della programmazione"
             },
             "export": {
                 "error": "Si è verificato un errore durante l'esportazione. Si prega di riprovare o contattare un amministratore."

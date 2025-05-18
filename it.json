@@ -61,7 +61,14 @@
                         "pattern": "Stima non valida. Deve essere in formato (HH)H:MM:SS",
                         "min": "Stima non valida. Deve essere superiore a 0 secondi"
                     },
-                    "label": "Stima"
+                    "label": "Stima",
+                    "hint": "Quando inserisci una stima, non indicare il tuo PB o un IGT. Oengus consiglia di aggiungere almeno 10 minuti al tuo PB in RTA per tenere conto di eventuali errori durante la corsa e/o del tempo impiegato prima dell'avvio del timer, come introduzione e conclusione."
+                },
+                "expectedRunners": {
+                    "label": "Numero previsto di corridori",
+                    "help": {
+                        "explanation": "Inserisci il numero di corridori previsti per questa categoria. Questo numero include anche te. Quindi, se questa categoria prevede una gara tra te e un’altra persona, devi inserire 2."
+                    }
                 }
             },
             "availabilities": {
@@ -70,7 +77,8 @@
                 "from": "Dal",
                 "error": {
                     "required": "È necessario inserire almeno un periodo di disponibilità",
-                    "dateRequired": "È necessario inserire una data"
+                    "dateRequired": "È necessario inserire una data",
+                    "toDateTooLittle": "La data di fine deve essere almeno 1 minuto successiva alla data di inizio."
                 },
                 "duplicate": "Duplica nel giorno seguente",
                 "add": "Aggiungi disponibilità",

@@ -28,7 +28,9 @@
                     "label": "Tipologia"
                 },
                 "opponent": {
-                    "with": "Con:"
+                    "with": "Con:",
+                    "andMore": "{{opponentList}} e altri {{count}}",
+                    "waiting": "In attesa che si uniscano {{count}} corridori..."
                 },
                 "name": {
                     "label": "Nome categoria",
@@ -158,7 +160,7 @@
             "multiplayer": {
                 "title": "Categorie in multigiocatore",
                 "code": {
-                    "help": "Inserisci un codice qui di seguito per unirti ad una proposta in multigiocatore"
+                    "help": "Se hai ricevuto un codice multigiocatore/gara, inseriscilo qui sotto per unirti alla categoria"
                 }
             },
             "maxNumberOfScreens": "Numero massimo di runner per gara / run in co-op",
@@ -601,7 +603,8 @@
                     "line3": "Il pulsante sarà abilitato tra 5 secondi",
                     "title": "Una volta pubblicata, la tua programmazione impieghierà 2-5 minuti per essere attivata.",
                     "line2": "Ciò significa che potrebbe richiedere un po' di tempo prima di vedere la programmazione aggiornata nella pagina della tua maratona.",
-                    "line1": "Per tenere basso il caricamento sui nostri server abbiamo implementato una cache su Oengus."
+                    "line1": "Per tenere basso il caricamento sui nostri server abbiamo implementato una cache su Oengus.",
+                    "header": "LEGGI ATTENTAMENTE"
                 },
                 "hideCompleteUsers": "Nascondi gli utenti nella cronologia quando non hanno più corse nelle \"corse selezionate\"",
                 "plsUseTheNewUi": "Al momento stai utilizzando la vecchia UI per gestire le tue programmazioni, la quale è instabile e potrebbe non funzionare. Passa alla pagina contrassegnata come \"nuova\" per una migliore esperienza!",
@@ -620,7 +623,7 @@
                 "json": "Esporta come JSON (Horaro)",
                 "ics": "Esporta come ICS",
                 "csv": "Esporta come CSV",
-                "gdq": "Tracciatore donazioni GDQ (strumento esterno)"
+                "gdq": "Tracciamento donazioni GDQ (strumento esterno)"
             },
             "dstChange": "La run contiene un cambiamento tra ora solare e legale.",
             "currentRun": "Run attuale",
@@ -1009,16 +1012,17 @@
             "deactivate": "Disattiva utente",
             "activate": "Attiva utente",
             "unban": "Revoca ban",
-            "ban": "Banna utente"
+            "ban": "Banna utente",
+            "speak": "Lingue parlate:"
         },
         "settings": {
             "username": {
                 "error": {
                     "exists": "Username già esistente. Utilizza un altro account, o di assicurati di non possedere già un profilo sincronizzato tramite un servizio esterno (Twitch o Discord)",
                     "required": "Username obbligatorio",
-                    "pattern": "Il username dev'essere composto solamente da caratteri minuscoli e maiuscoli, _ e -",
-                    "min": "Username troppo corto",
-                    "max": "Username troppo lungo"
+                    "pattern": "Il nome utente deve essere composto solamente da caratteri minuscoli, numeri, _ e -",
+                    "min": "Nome utente troppo corto, sono necessari almeno 3 caratteri",
+                    "max": "Nome utente troppo lungo, sono consentiti massimo 32 caratteri"
                 },
                 "label": "Username"
             },
@@ -1057,7 +1061,8 @@
                 "error": {
                     "required": "E-mail obbligatoria",
                     "email": "E-mail non valida"
-                }
+                },
+                "help": "Il tuo indirizzo email rimarrà privato, ma verrà utilizzato per recuperare la tua immagine profilo da <a href=\"https://gravatar.com/\" target=\"_blank\">Gravatar</a>, limitata a immagini con classificazione PG o inferiore."
             },
             "deletingAccount": {
                 "success": "Il tuo account è stato eliminato",
@@ -1094,7 +1099,8 @@
             "pronouns": {
                 "no_results": "Nessun pronome trovato",
                 "hint": "Seleziona un pronome, ad esempio: they/them",
-                "title": "Pronomi"
+                "title": "Pronomi",
+                "help": "I dati sui pronomi provengono da <a href=\"https://en.pronouns.page/\" target=\"_blank\">pronouns.page</a>. Per saperne di più sul loro lavoro e su come contribuire, visita il loro sito web."
             },
             "connections": {
                 "username": "Username o simile",
@@ -1102,6 +1108,42 @@
                 "visibility": "Visibile pubblicamente",
                 "subtitle": "Questi collegamenti a social media sono visibili pubblicamente sul tuo profilo.",
                 "title": "Collegamenti"
+            },
+            "profilePicture": {
+                "label": "Immagine profilo",
+                "button": "Imposta immagine profilo"
+            },
+            "mfa": {
+                "label": "Autenticazione a due fattori",
+                "modal": {
+                    "title": "Imposta 2fa",
+                    "imageTop": "Scansiona il codice QR con la tua applicazione di autenticazione e inserisci il numero nell'input qui sotto",
+                    "tagline": "Preparati a rendere il tuo account più sicuro!",
+                    "manualCode": "In alternativa, puoi inserire manualmente questo codice: {{code}}"
+                },
+                "enableButton": "Abilita autenticazione a due fattori",
+                "disableButton": "Disabilita autenticazione a due fattori"
+            },
+            "displayName": {
+                "help": "Se usi un alias o desideri qualcosa di diverso dal tuo nome utente, puoi utilizzare questo campo per impostare come vuoi essere visualizzato su Oengus.",
+                "error": {
+                    "required": "Il nome visualizzato è obbligatorio",
+                    "max": "Il nome visualizzato è troppo lungo, sono consentiti al massimo 32 caratteri.",
+                    "min": "Il nome visualizzato è troppo corto, è necessario almeno 1 carattere"
+                },
+                "label": "Nome visualizzato"
+            },
+            "language": {
+                "label": "Lingue che parli",
+                "no_results": "Nessuna lingua trovata",
+                "placeholder": "Digita per trovare una lingua"
+            },
+            "password": {
+                "error": {
+                    "required": "La password è obbligatoria"
+                },
+                "changeLabel": "Cambia password",
+                "label": "Password"
             }
         }
     },
@@ -1110,7 +1152,16 @@
             "body": "La pagina <em>{{path}}</em> non è stata trovata su Angus",
             "title2": "Stai correndo troppo, rallenta un po'",
             "title1": "Fermati un attimo, stai andando troppo veloce",
-            "title0": "Il tuo Record Mondiale è stato rifiutato"
+            "title0": "Il tuo Record Mondiale è stato rifiutato",
+            "title3": "Non accettiamo gare difettose",
+            "title4": "Non è un bug, è una funzionalità"
+        },
+        "403": {
+            "title": "Non autorizzato",
+            "subtitle": "Devi aver effettuato l'accesso per visualizzare questa pagina!"
+        },
+        "format": {
+            "url": "Questo non è un URL valido"
         }
     },
     "patrons": {
@@ -1131,15 +1182,25 @@
             "twitter": "Login tramite Twitter",
             "twitch": "Login tramite Twitch",
             "discord": "Login tramite Discord",
-            "disclaimer": "Attenzione: se hai già un profilo Oengus, assicurati che sia già sincronizzato con il profilo esterno tramite cui stai effettuando il login, altrimenti ne sarà creato uno nuovo"
+            "disclaimer": "Attenzione: se hai già un profilo Oengus, assicurati che sia già sincronizzato con il profilo esterno tramite cui stai effettuando il login, altrimenti ne sarà creato uno nuovo",
+            "password": "Accedi con nome utente e password",
+            "google": "Accedi con Google",
+            "mastodon": "Accedi con Mastodon"
         },
         "logout": "Logout",
         "donate": "Effettua una donazione",
-        "discord": "Entra nel server Discord ufficiale",
+        "discord": "Entra nel server Discord di Oengus",
         "createMarathon": "Nuova maratona",
         "bugtracker": "Segnala bug o invia suggerimenti",
         "patrons": "I nostri Sostenitori",
-        "about": "Informazioni"
+        "about": "Informazioni",
+        "displayNameNotification": "Ehi! Sembra che manchi il tuo nome visualizzato nel profilo. Vai nelle impostazioni per impostarlo!",
+        "email-verification": {
+            "message": "Verifica il tuo indirizzo email. Fino ad allora non potrai fare nulla, inclusa – ma non limitata a – la possibilità di inviare proposte per gli eventi.",
+            "request-btn": "Richiedi una nuova email di verifica"
+        },
+        "mastodon": "Seguici su Mastodon",
+        "register": "Registrati"
     },
     "country": {
         "AF": "Afghanistan",
@@ -1491,5 +1552,8 @@
         "thank_you": "Grazie!",
         "submit": "Iscriviti!",
         "login_hint": "In alternativa, puoi già {{login-link}} se lo desideri."
+    },
+    "news": {
+        "title": "Novità"
     }
 }

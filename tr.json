@@ -1476,7 +1476,8 @@
         "TWITCH": "Twitch",
         "DISCORD": "Discord",
         "INSTAGRAM": "Instagram",
-        "SNAPCHAT": "Snapchat"
+        "SNAPCHAT": "Snapchat",
+        "BLUESKY": "Bluesky"
     },
     "errors": {
         "403": {

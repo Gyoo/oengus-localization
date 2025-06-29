@@ -436,7 +436,8 @@
           "title": "Manage existing or {{create-new}}",
           "create-new": "create a new schedule",
           "scheduleHeader": "Your schedules:",
-          "nothingFound": "No schedules found"
+          "nothingFound": "No schedules found",
+          "scheduleCount": "You currently have {{total}} out of a maximum of {{maxSchedules}} schedule(s) created."
         },
         "settings": {
           "customLabel": "Custom label",

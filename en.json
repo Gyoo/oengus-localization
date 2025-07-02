@@ -1557,5 +1557,13 @@
     "da": "Danish",
     "tr": "Turkish",
     "pt": "Portuguese"
+  },
+  "editor": {
+    "markdown": {
+      "controls": {
+        "edit": "Edit",
+        "preview": "Preview"
+      }
+    }
   }
 }

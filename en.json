@@ -701,6 +701,7 @@
       },
       "marathonDescription": {
         "help": "Markdown is supported",
+        "markdown": "A markdown guide is available on this link: {{link}}",
         "label": "Description"
       },
       "maxCategoriesPerGame": {

@@ -1319,5 +1319,8 @@
     },
     "announcements": {
         "twitterRemoval": "Hallo zusammen. Wir werden den Login über Twitter demnächst deaktivieren. Bitte stelle sicher, dass Du deinen Twitch oder Discord Account mit Oengus verknüpft hast, damit Du nicht ausgesperrt wirst."
+    },
+    "auth": {
+        "emailVerificationRequired": "Bitte verifiziere deine Email Adresse um diese Funktion nutzen zu können."
     }
 }

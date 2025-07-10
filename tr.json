@@ -735,7 +735,7 @@
             "multiplayer": {
                 "title": "Çok oyunculu kategoriler",
                 "code": {
-                    "help": "Çok oyunculu/yarış kodu aldıysanız, kategoriye katılmak için aşağıya giriniz."
+                    "help": "Eğer çok oyunculu/yarış kodu aldıysanız, kategoriye katılmak için lütfen aşağıya girin."
                 }
             },
             "racesAllowed": "Yarışlara/İşbirliğine izin verildi",
@@ -828,7 +828,7 @@
             "title": "Hakkımızda",
             "par3": "Speedrun maratonları, speedruncıların online veya reelde bir araya gelerek izleyicilere oyunları ve speedrunları sergilemek için toplanılan etkinliklerdir. En popüler speedrun maratonları, yılda iki kez düzenlenen<a href=\"https://gamesdonequick.com\" target=\"_blank\">Games Done Quick</a>'tir.",
             "par2": "\"Speedrun\", eğlenmek ve/veya başkalarıyla yarışmak amacıyla bir video oyununu olabildiğince hızlı tamamlama eylemidir. Speedrun hakkında daha fazla bilgiye <a href=\"https://en.wikipedia.org/wiki/Speedrun\" target=\"_blank\">Wikipedia (İngilizce)</a>'dan ulaşabilirsiniz.",
-            "par1": "Oengus (Angus/ang·guhs olarak telaffuz edilir), hızlı koşu maratonları düzenlemek için araçlar sağlayan bir sitedir."
+            "par1": "Oengus (okunuşu Angus / ang·guhs), hız koşusu maratonlarını düzenlemek için araçlar sağlayan bir sitedir."
         },
         "contact": {
             "title": "İletişim",
@@ -1506,7 +1506,7 @@
         "EMAIL": "E-posta",
         "SPEEDRUNCOM": "speedrun.com",
         "NICO": "Nico",
-        "PHONE": "Telefon Numarası",
+        "PHONE": "Telefon numarası",
         "MASTODON": "Mastodon",
         "TWITTER": "Twitter",
         "YOUTUBE": "YouTube",

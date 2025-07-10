@@ -36,7 +36,8 @@
                     "title": "Var olanı yönetin veya {{create-new}}",
                     "scheduleHeader": "Programlarınız:",
                     "nothingFound": "Program bulunamadı",
-                    "create-new": "yeni bir program oluşturun"
+                    "create-new": "yeni bir program oluşturun",
+                    "scheduleCount": "Şu anda maksimum {{maxSchedules}} programdan {{total}} tanesini oluşturdunuz."
                 },
                 "settings": {
                     "createTitle": "Yeni bir program oluşturun",
@@ -62,13 +63,18 @@
                     },
                     "customLabel": "Özel etiket"
                 },
-                "plsUseTheNewUi": "Şu anda programları yönetmek için eski kullanıcı arayüzünü kullanıyorsunuz. Daha iyi bir deneyim için lütfen \"yeni\" olarak işaretlenmiş sayfaya geçin!"
+                "plsUseTheNewUi": "Şu anda program yönetimi için eski kullanıcı arayüzünü kullanıyorsunuz, bu arayüz kararsızdır ve bozulabilir. Daha iyi bir deneyim için lütfen “yeni” olarak işaretlenmiş sayfaya geçin!",
+                "horaro": {
+                    "missingFeature": "Oengus şu anda programınızdaki sütunları özelleştirme özelliğini desteklemiyor. Bu özelliğe çok mu ihtiyacınız var? {{horaro}}’yu deneyin!",
+                    "appName": "Horaro"
+                }
             },
             "export": {
                 "title": "Programı dışa aktar",
                 "json": "JSON'a (Horaro) aktar",
                 "ics": "ICS'ye aktar",
-                "csv": "CSV’ye aktar"
+                "csv": "CSV’ye aktar",
+                "gdq": "GDQ Bağış Takipçisi (harici araç)"
             },
             "dstChange": "Maraton sırasında yaz saati uygulaması değişimi olacaktır.",
             "currentRun": "Şu anda koşulan oyun",
@@ -86,7 +92,7 @@
             "table": {
                 "type": "Tip",
                 "time": "Süre",
-                "setup": "Kurulum süresi",
+                "setup": "Yarış sonrası ayar süresi",
                 "runner": "Oyuncu(lar)",
                 "game": "Oyun",
                 "estimate": "Tahmini",
@@ -97,7 +103,19 @@
                 "link": "Bağlantı"
             },
             "setupBlock": "Kurulum bloğu",
-            "nextRun": "Bir sonraki run {{duration}}"
+            "nextRun": "Bir sonraki run {{duration}}",
+            "clone": {
+                "title": "Programı klonla!",
+                "help1": "Tüm farklı programdaki koşuları içe aktarmak için önce aşağıdaki listeden bir program seçmeniz gerekir.",
+                "help2": "Aşağıdaki açılır menüden bir program seçtikten sonra, içe aktarma işlemini başlatmak için İçe Aktar butonuna basınız.",
+                "placeholder": "Program seçin...",
+                "trigger": "Mevcut programdan kopyala"
+            },
+            "import": {
+                "trigger": "Dosyadan program içe aktar",
+                "csv": "CSV’den içe aktar",
+                "json": "JSON’dan içe aktar (Horaro)"
+            }
         },
         "new": {
             "title": "Yeni bir maraton oluşturun",
@@ -543,7 +561,8 @@
             },
             "marathonDescription": {
                 "label": "Açıklama",
-                "help": "Markdown destekleniyor"
+                "help": "Markdown destekleniyor",
+                "markdown": "Bir Markdown rehberi bu linkte mevcuttur: {{link}}"
             },
             "maxGamesPerRunner": {
                 "error": {
@@ -586,6 +605,12 @@
             },
             "location": {
                 "label": "Konum"
+            },
+            "bluesky": {
+                "error": {
+                    "pattern": "Geçersiz kullanıcı adı, '@' ile başladığından emin olun (örneğin: @oengus.bsky.app)",
+                    "maxlength": "Bluesky adı çok uzun"
+                }
             }
         },
         "submit": {
@@ -628,7 +653,15 @@
                     "label": "Tip"
                 },
                 "opponent": {
-                    "with": "İle:"
+                    "with": "İle:",
+                    "andMore": "{{opponentList}} ve {{count}} tane daha",
+                    "waiting": "{{count}} koşucunun katılması bekleniyor..."
+                },
+                "expectedRunners": {
+                    "label": "Beklenen koşucu sayısı",
+                    "help": {
+                        "explanation": "Bu kategori için kaç koşucunun beklendiğini girin. Bu sayı sizi de kapsar. Yani eğer bu kategori sizin ve başka birinin yarışmasıysa, 2 girmeniz gerekir."
+                    }
                 }
             },
             "dangerZone": "Tehlikeli bölge",
@@ -702,7 +735,7 @@
             "multiplayer": {
                 "title": "Çok oyunculu kategoriler",
                 "code": {
-                    "help": "Çok oyunculu gönderime katılmak için lütfen aşağıya bir kod girin"
+                    "help": "Çok oyunculu/yarış kodu aldıysanız, kategoriye katılmak için aşağıya giriniz."
                 }
             },
             "racesAllowed": "Yarışlara/İşbirliğine izin verildi",
@@ -761,7 +794,7 @@
             "title": "Sponsorlar",
             "patreon": {
                 "nobody": "Oengus'un hiç sponsoru yok!",
-                "patrons": "patrons",
+                "patrons": "Destekçiler",
                 "but_patreon": "Oengus, {{patrons}} sayesinde herkesin kullanımı için tamamen ücretsizdir!",
                 "see_footer": "Müşterilerimizi her sayfanın altında gururla sergiliyoruz!"
             }
@@ -813,7 +846,8 @@
         "emu": "[Emu]",
         "enabled": "Etkin",
         "disabled": "Devre Dışı",
-        "non_select": "Hiçbiri seçilmedi"
+        "non_select": "Hiçbiri seçilmedi",
+        "loading": "Yükleniyor..."
     },
     "footer": {
         "text": "Tüm saatler bulunduğunuz zaman diliminize çevrilmiştir. Algılanan zaman dilimi: {{timezone}}",
@@ -849,7 +883,8 @@
                 "usernameExists": "Giriş yapmaya çalıştığınız hesaba ilişkilendirilmiş kullanıcı adı kullanımdadır. Daha önce başka bir giriş yöntemiyle bir Oengus profili oluşturmadığınızdan emin olun. Eğer bir yanlışlık olduğunu düşünüyorsanız bir admin ile irtibata geçin.",
                 "error": "Kullanıcı doğrulama sırasında bir hata meydana geldi. Lütfen tekrar deneyiniz veya bir admin ile irtibata geçiniz.",
                 "disabledAccount": "Hesabınız devre dışıdır. Kullanıma açmak isterseniz bir admin ile irtibata geçiniz.",
-                "noAccountFound": "Hesap bulunamadı, lütfen yeni bir hesap için kaydolun veya mevcut bir hesapla senkronize edin."
+                "noAccountFound": "Hesap bulunamadı, lütfen yeni bir hesap için kaydolun veya mevcut bir hesapla senkronize edin.",
+                "passwordResetRequired": "Giriş yapabilmek için şifrenizi sıfırlamanız gerekecek, bunun için özür dileriz."
             },
             "deactivate": {
                 "success": "Hesabınız devre dışı bırakılmıştır"
@@ -958,7 +993,9 @@
         "create": "Oluştur",
         "delete": "Sil",
         "edit": "Düzenle",
-        "share": "Paylaş"
+        "share": "Paylaş",
+        "import": "İçe Aktar",
+        "shareBluesky": "Bluesky’a gönder"
     },
     "language": {
         "de": "Almanca",
@@ -1045,7 +1082,7 @@
         "translate": "Sitenin çevrilmesine yardım edin",
         "mastodon": "Bizi Mastodon'da takip edin",
         "email-verification": {
-            "message": "Hey! Görünüşe göre e-posta adresinizi henüz doğrulamadınız. Doğrulanmış e-posta adresi olmayan kullanıcılar gelecekte silinebilir.",
+            "message": "Lütfen e-posta adresinizi doğrulayın. Doğrulama yapılana kadar, etkinliklere katılmak da dahil olmak üzere herhangi bir işlem yapamazsınız.",
             "request-btn": "Yeni doğrulama e-postası isteyin"
         },
         "donate": "Bağış",
@@ -1520,5 +1557,13 @@
     },
     "news": {
         "title": "Haberler"
+    },
+    "editor": {
+        "markdown": {
+            "controls": {
+                "edit": "Düzenle",
+                "preview": "Önizleme"
+            }
+        }
     }
 }

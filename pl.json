@@ -433,6 +433,7 @@
     "register": {
         "submit": "Zarejestruj się!",
         "thank_you": "Dziękujemy!",
-        "email_sent": "Wysłaliśmy mejla do twojej skrzynki, kliknij na link w nim by zweryfikować swój adres email."
+        "email_sent": "Wysłaliśmy mejla do twojej skrzynki, kliknij na link w nim by zweryfikować swój adres email.",
+        "login_hint": "Alternatywnie, możesz się już {{login-link}} jeśli chcesz."
     }
 }

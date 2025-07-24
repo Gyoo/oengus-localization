@@ -37,7 +37,8 @@
         "create": "Créer",
         "import": "Importer",
         "share": "Partager",
-        "login": "Se connecter"
+        "login": "Se connecter",
+        "shareBluesky": "Publier sur bluesky"
     },
     "alert": {
         "category": {
@@ -444,9 +445,14 @@
                     "nothingFound": "Pas de planning trouvé",
                     "title": "Gérer ce qui existe ou {{create-new}}",
                     "scheduleHeader": "Vos plannings :",
-                    "create-new": "créer un nouveau planning"
+                    "create-new": "créer un nouveau planning",
+                    "scheduleCount": "Vous avez actuellement {{total}} sur un maximum de {{maxSchedules}} horaire(s) créé."
                 },
-                "plsUseTheNewUi": "Vous êtes en train d'utiliser l'ancienne interface pour gérer des plannings, elle est instable et peut se casser. S'il vous plait changez pour la page marquée comme \"nouvelle\" pour une meilleur expérience !"
+                "plsUseTheNewUi": "Vous êtes en train d'utiliser l'ancienne interface pour gérer des plannings, elle est instable et peut se casser. S'il vous plait changez pour la page marquée comme \"nouvelle\" pour une meilleur expérience !",
+                "horaro": {
+                    "missingFeature": "Oengus ne supporte actuellement pas la possibilité de personnaliser les colonnes pour votre agenda. Besoin désespérément de cette fonctionnalité? Essayez {{horaro}} !",
+                    "appName": "Horaro"
+                }
             },
             "nextRun": "Prochaine run {{duration}}",
             "setupBlock": "Bloc tampon",
@@ -627,7 +633,8 @@
             },
             "marathonDescription": {
                 "help": "Vous pouvez utiliser le Markdown",
-                "label": "Description"
+                "label": "Description",
+                "markdown": "Un guide de balisage est disponible sur ce lien : {{link}}"
             },
             "maxCategoriesPerGame": {
                 "error": {
@@ -800,6 +807,12 @@
                     "pattern": "Le nom d'utilisateur de Mastodon ne correspond pas à \"user@instance.tld\"",
                     "maxlength": "Le nom Mastodon est trop long"
                 }
+            },
+            "bluesky": {
+                "error": {
+                    "pattern": "Nom d'utilisateur non valide, assurez-vous que votre identifiant commence par '@' (ex : @oengus.bsky.app)",
+                    "maxlength": "Le nom bluesky est trop long"
+                }
             }
         },
         "submissions": {
@@ -885,7 +898,9 @@
                     "label": "Catégorie"
                 },
                 "opponent": {
-                    "with": "Avec :"
+                    "with": "Avec :",
+                    "andMore": "{{opponentList}}, et {{count}} plus",
+                    "waiting": "En attente de {{count}} coureurs pour commencer..."
                 },
                 "type": {
                     "label": "Type"
@@ -895,6 +910,12 @@
                         "required": "Une vidéo est requise"
                     },
                     "label": "Vidéo"
+                },
+                "expectedRunners": {
+                    "label": "Nombre prévu de coureurs",
+                    "help": {
+                        "explanation": "Entrez le nombre de coureurs attendus pour cette catégorie. Ce nombre inclut vous-même. Donc si cette catégorie est une course entre vous et quelqu'un d'autre, vous devez entrer 2."
+                    }
                 }
             },
             "customField": {
@@ -1536,5 +1557,13 @@
         "login_hint": "Sinon, vous pouvez déjà {{login-link}} si vous voulez.",
         "email_sent": "Nous vous avons envoyé un e-mail dans votre boîte mail, veuillez cliquer sur le lien à l'intérieur pour vérifier votre adresse e-mail.",
         "thank_you": "Merci !"
+    },
+    "editor": {
+        "markdown": {
+            "controls": {
+                "edit": "Modifier",
+                "preview": "Aperçu"
+            }
+        }
     }
 }

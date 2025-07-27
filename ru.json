@@ -192,7 +192,8 @@
                     "scheduleHeader": "Ваши расписания:",
                     "create-new": "создать новое расписание",
                     "title": "Управляйте существующими или {{create-new}}",
-                    "nothingFound": "Расписания не найдены"
+                    "nothingFound": "Расписания не найдены",
+                    "scheduleCount": "В настоящее время у вас создано {{total}} из макс. кол-ва {{maxSchedules}} расписаний."
                 },
                 "plsUseTheNewUi": "В настоящее время вы используете старый пользовательский интерфейс для управления расписаниями, он нестабилен и может сломаться. Пожалуйста, перейдите на страницу, помеченную как «новая», для более удобной работы!",
                 "settings": {
@@ -544,7 +545,7 @@
                 "submissions": "Заявки",
                 "general": "Общее",
                 "dangerZone": "Опасная зона",
-                "discord": "Discord"
+                "discord": "Discоrd"
             },
             "title": "Настройки марафона",
             "twitch": {
@@ -624,7 +625,8 @@
             },
             "marathonDescription": {
                 "help": "Markdown поддерживается",
-                "label": "Описание"
+                "label": "Описание",
+                "markdown": "Руководство по разметке доступно по этой ссылке: {{link}}"
             },
             "endDate": {
                 "error": {
@@ -1184,19 +1186,19 @@
         "import": "Импортировать"
     },
     "platform": {
-        "NICO": "Nico",
+        "NICO": "Nicо",
         "PHONE": "Номер телефона",
         "EMAIL": "Электронная почта",
-        "DISCORD": "Discord",
-        "SNAPCHAT": "Snapchat",
+        "DISCORD": "Discоrd",
+        "SNAPCHAT": "Snаpchat",
         "INSTAGRAM": "Instagram",
         "FACEBOOK": "Facebook",
         "SPEEDRUNCOM": "speedrun.com",
-        "TWITCH": "Twitch",
+        "TWITCH": "Тwitch",
         "TWITTER": "X («Твиттер»)",
         "YOUTUBE": "YouTube",
         "MASTODON": "Мастодонт",
-        "BLUESKY": "Bluesky"
+        "BLUESKY": "Blueskу"
     },
     "alert": {
         "game": {
@@ -1555,5 +1557,13 @@
             }
         },
         "emailVerificationRequired": "Пожалуйста, проверьте свой адрес электронной почты перед использованием этой функции."
+    },
+    "editor": {
+        "markdown": {
+            "controls": {
+                "edit": "Редакт.",
+                "preview": "Пред. просмотр"
+            }
+        }
     }
 }

@@ -464,7 +464,7 @@
                 "game": "Jeu",
                 "placeholder": "Déposez une run depuis le tableau de gauche dans celui-ci. Ce texte disparaîtra automatiquement une fois qu'une run sera rajoutée au planning.",
                 "runner": "Runner(s)",
-                "setup": "Temps de préparation",
+                "setup": "Temps de préparation post-run",
                 "time": "Heure",
                 "type": "Type",
                 "link": "Lien"
@@ -899,8 +899,8 @@
                 },
                 "opponent": {
                     "with": "Avec :",
-                    "andMore": "{{opponentList}}, et {{count}} plus",
-                    "waiting": "En attente de {{count}} coureurs pour commencer..."
+                    "andMore": "{{opponentList}}, et {{count}} autre(s)",
+                    "waiting": "En attente de {{count}} runners pour commencer..."
                 },
                 "type": {
                     "label": "Type"
@@ -912,9 +912,9 @@
                     "label": "Vidéo"
                 },
                 "expectedRunners": {
-                    "label": "Nombre prévu de coureurs",
+                    "label": "Nombre prévu de runners",
                     "help": {
-                        "explanation": "Entrez le nombre de coureurs attendus pour cette catégorie. Ce nombre inclut vous-même. Donc si cette catégorie est une course entre vous et quelqu'un d'autre, vous devez entrer 2."
+                        "explanation": "Entrez le nombre de runners attendus pour cette catégorie. Ce nombre inclut vous-même. Donc si cette catégorie est une course entre vous et quelqu'un d'autre, vous devez entrer 2."
                     }
                 }
             },
@@ -959,7 +959,7 @@
             "maxNumberOfScreens": "Maximum de runners par course/coop",
             "multiplayer": {
                 "code": {
-                    "help": "Pour rejoindre une catégorie multijoueurs, veuillez rentrer le code fourni ci-dessous"
+                    "help": "Si vous avez reçu un code multijoueur/race veuillez le rentrer ci-dessous pour rejoindre la catégorie"
                 },
                 "title": "Catégories multijoueurs"
             },
@@ -1001,7 +1001,7 @@
         "about": "À propos",
         "bugtracker": "Signaler un problème ou une suggestion",
         "createMarathon": "Nouveau marathon",
-        "discord": "Rejoindre le serveur Discord officiel",
+        "discord": "Rejoindre le serveur Discord d'Oengus",
         "donate": "Faire un don",
         "login": {
             "disclaimer": "Attention : si vous avez déjà un profil sur Oengus, assurez vous de vous connecter avec un compte déjà synchronisé avec votre profil, sinon un nouveau profil sera créé",
@@ -1026,7 +1026,7 @@
         "register": "S'inscrire",
         "email-verification": {
             "request-btn": "Demander un nouveau mail de vérification",
-            "message": "Salut ! Il semblerait que vous n'avez pas encore vérifié votre adresse e-mail. Les utilisateurs sans adresse e-mail vérifiée peuvent être supprimé au bout d'un moment."
+            "message": "Veuillez vérifier votre adresse e-mail. Tant que ce ne sera pas fait vous ne pourrez rien faire, notamment postuler aux évènements."
         }
     },
     "user": {
@@ -1071,7 +1071,7 @@
                     "required": "L'adresse courriel est requise"
                 },
                 "label": "Adresse courriel",
-                "help": "Votre adresse mail est utilisée pour récupérer votre image de profil depuis <a href=\"https://gravatar.com/\" target=\"_blank\">Gravatar</a> et ne fonctionnera que si elle est classée tout public."
+                "help": "Votre adresse mail va rester confidentielle mais est utilisée pour récupérer votre image de profil depuis <a href=\"https://gravatar.com/\" target=\"_blank\">Gravatar</a> avec des images classées tout public."
             },
             "general": "Informations générales",
             "new": {

@@ -1228,6 +1228,10 @@
         },
         "help": "If you go by an alias or want something different from your username, you can use this field to set how you're displayed on Oengus.",
         "label": "Display name"
+      },
+      "savedGames": {
+        "label": "Saved games visibility",
+        "yesOption": "Display my saved games publicly"
       }
     },
     "savedGames": {

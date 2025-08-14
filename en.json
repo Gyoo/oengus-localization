@@ -994,6 +994,12 @@
           "label": "Video ratio/Resolution (16:9, 4:3, 1920x1080…)"
         }
       },
+      "import": {
+        "title": "Import saved speedrun",
+        "description": "To import your runs, please select them and then press import. You can hold the {{ctrlKey}} key to select multiple items.",
+        "ctrlKey": "ctrl"
+
+      },
       "maxCategoriesPerGame": "Maximum categories per game",
       "maxGamesPerRunner": "Maximum games per runner",
       "maxNumberOfScreens": "Maximum number of runners per race/coop",
@@ -1060,6 +1066,7 @@
     "privacyConsent": "By clicking on Accept, you allow Oengus to use cookies for traffic analytics purposes. Learn more about our privacy policy in the About page.",
     "profile": "My profile",
     "settings": "Settings",
+    "savedGames": "Saved Speedruns",
     "sourceCode": "Source code",
     "translate": "Help translate the site",
     "twitter": "Follow us on Twitter",
@@ -1222,6 +1229,12 @@
         "help": "If you go by an alias or want something different from your username, you can use this field to set how you're displayed on Oengus.",
         "label": "Display name"
       }
+    },
+    "savedGames": {
+      "header": "Saved Speedrun settings",
+      "patronNudge": "If you are supporting Oengus on patreon you will be able to add and modify your saved speedruns here",
+      "instruction1": "Saved speedruns can be shown off on your profile (toggleable in settings) and autofillable when submitting to events.",
+      "cacheWarning": "Any changes you make here might take **24 hours** to update on your profile. Do not worry, autofill is unaffected."
     }
   },
   "patrons": {

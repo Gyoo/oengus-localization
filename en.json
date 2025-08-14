@@ -997,6 +997,7 @@
       "import": {
         "title": "Import saved speedrun",
         "description": "To import your runs, please select them and then press import. You can hold the {{ctrlKey}} key to select multiple items.",
+        "settingsHint": "If the below list is empty, you can save runs by clicking on your name in the top right and then selecting \"Saved Speedruns\"",
         "ctrlKey": "ctrl"
 
       },

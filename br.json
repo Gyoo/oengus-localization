@@ -1,1 +1,39 @@
-{}
+{
+    "aboutPage": {
+        "about": {
+            "title": "A-zivout"
+        }
+    },
+    "action": {
+        "cancel": "Nullañ",
+        "login": "Kevreañ",
+        "submit": "Kas"
+    },
+    "calendar": {
+        "now": "Bremañ"
+    },
+    "global": {
+        "loading": "O kargañ..."
+    },
+    "login": {
+        "button": "Kevreañ"
+    },
+    "register": {
+        "thank_you": "Trugarez !"
+    },
+    "marathon": {
+        "donate": {
+            "incentives": {
+                "bid": {
+                    "new": "(Nevez)"
+                }
+            }
+        },
+        "home": {
+            "language": "Yezh"
+        },
+        "menu": {
+            "home": "Degemer"
+        }
+    }
+}

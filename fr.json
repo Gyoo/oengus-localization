@@ -37,7 +37,7 @@
         "create": "Créer",
         "import": "Importer",
         "share": "Partager",
-        "login": "Se connecter",
+        "login": "se connecter",
         "shareBluesky": "Publier sur bluesky"
     },
     "alert": {
@@ -132,7 +132,7 @@
                 "disabledAccount": "Votre compte est désactivé. Si vous souhaitez l'utiliser à nouveau, veuillez contacter un administrateur.",
                 "error": "Une erreur est survenue lors de l'authentification. Merci de réessayer ou de contacter un administrateur.",
                 "usernameExists": "Le nom associé au compte avec lequel vous essayez de vous inscrire existe déjà. Veuillez vous assurer que vous n'avez pas déjà un profil Oengus synchronisé avec un autre compte externe. Si vous pensez qu'il s'agit d'un faux positif, veuillez contacter un administrateur.",
-                "passwordResetRequired": "Afin de pouvoir vous connecter, vous allez devoir réinitialiser votre mot de passe, nos excuses pour ça.",
+                "passwordResetRequired": "Afin de pouvoir vous connecter, vous allez devoir réinitialiser votre mot de passe ; veuillez nous excuser.",
                 "noAccountFound": "Compte non trouvé, veuillez vous enregistrer avec un nouveau compte ou vous synchroniser avec un compte déjà créé."
             },
             "sync": {
@@ -146,7 +146,7 @@
         },
         "generic": {
             "clipboardOk": "Copié dans votre presse papier !",
-            "validationError": "Il y a eu un problème, pour plus d'informations veuillez regardez les erreurs de validations. Si le problème persiste, veuillez contacter le support sur discord."
+            "validationError": "Il y a eu un problème. Pour plus d'informations, veuillez regardez les erreurs de validations. Si le problème persiste, veuillez contacter le support sur discord."
         }
     },
     "calendar": {
@@ -211,7 +211,7 @@
             "patreon": {
                 "but_patreon": "Oengus est entièrement gratuit d'utilisation pour tout le monde grâce à nos {{patrons}} !",
                 "patrons": "donateurs",
-                "nobody": "Oengus n'a aucun sponsors !",
+                "nobody": "Oengus n'a pas de sponsors !",
                 "see_footer": "Nous affichons avec fierté nos donateurs au bas de chaque page !"
             }
         },
@@ -621,7 +621,7 @@
             "generalTitle": "Paramètres généraux",
             "incentives": {
                 "hasIncentives": "Ce marathon a des incentives",
-                "label": "Présence des incentives",
+                "label": "Statut des incentives",
                 "disabledNotification": "Les incentives sont actuellement désactivés pour cause d'instabilité de la fonctionnalité. Nous n'avons pas d'estimation pour le retour de cette fonctionnalité, mais une communication sera effectuée lorsque ce sera le cas."
             },
             "incentivesTitle": "Paramètres d'incentives",

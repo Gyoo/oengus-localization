@@ -37,7 +37,8 @@
         "create": "Aanmaken",
         "edit": "Edit",
         "delete": "Verwijder",
-        "import": "Importeer"
+        "import": "Importeer",
+        "shareBluesky": "Plaats op BlueSky"
     },
     "alert": {
         "category": {
@@ -420,7 +421,8 @@
                     "title": "Beheer bestaande of {{create-new}}",
                     "create-new": "maak een nieuw schema aan",
                     "scheduleHeader": "Uw schema's:",
-                    "nothingFound": "Geen schema's gevonden"
+                    "nothingFound": "Geen schema's gevonden",
+                    "scheduleCount": "Je hebt op dit moment {{total}} van een maximum van {{maxSchedules}} schema's gemaakt."
                 },
                 "settings": {
                     "name": {

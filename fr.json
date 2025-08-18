@@ -1534,7 +1534,7 @@
         "title": "Actualités"
     },
     "announcements": {
-        "twitterRemoval": "Salut, nous allons bientôt supprimer Twitter comme option de connexion. Assurez-vous que votre compte Twitch ou Discord est lié à votre compte Oengus pour éviter d'être bloqué."
+        "twitterRemoval": "Nous allons bientôt supprimer Twitter comme option de connexion. Assurez-vous que votre compte Twitch ou Discord est lié à votre compte Oengus pour éviter d'être bloqué."
     },
     "auth": {
         "passwordReset": {
@@ -1544,9 +1544,9 @@
             "request": "Demander une réinitialisation de mot de passe",
             "submit": "Réinitialisez votre mot de passe !",
             "success": "Votre mot de passe a été réinitialisé. Vous pouvez maintenant vous connecter avec votre mot de passe.",
-            "requested": "Une demande de réinitialisation de mot de passe à été envoyé à votre adresse mail. Veuillez vérifier votre mail pour les instructions suivantes.",
+            "requested": "Une demande de réinitialisation de mot de passe à été envoyé à votre adresse mail. Veuillez vérifier votre boîte de réception pour les instructions suivantes.",
             "error": {
-                "PASSWORD_RESET_CODE_INVALID": "Votre jeton de réinitialisation de mot de passe est invalide, veuillez demander un nouveau mail.",
+                "PASSWORD_RESET_CODE_INVALID": "Votre code de réinitialisation de mot de passe est invalide, veuillez demander un nouveau mail.",
                 "EMAIL_VERIFICATION_REQUIRED": "Veuillez vérifier votre adresse e-mail avant d'utiliser cette fonctionnalité."
             }
         },

@@ -7,16 +7,38 @@
     "action": {
         "cancel": "Nullañ",
         "login": "Kevreañ",
-        "submit": "Kas"
+        "submit": "Kas",
+        "create": "Krouiñ",
+        "sendTweet": "Kas tweet",
+        "delete": "Dilemel",
+        "import": "Enporzhiañ",
+        "share": "Rannañ"
     },
     "calendar": {
-        "now": "Bremañ"
+        "now": "Bremañ",
+        "title": "Deiziataer ar maratonioù",
+        "allDay": "E-pad an devezh"
     },
     "global": {
-        "loading": "O kargañ..."
+        "loading": "O kargañ...",
+        "enabled": "Gweredekaet",
+        "disabled": "Diweredekaet",
+        "emu": "[Emu]"
     },
     "login": {
-        "button": "Kevreañ"
+        "button": "Kevreañ",
+        "password": {
+            "hide": "Kuzhat ar ger-tremen",
+            "show": "Diguzhat ar ger-tremen"
+        },
+        "provider": {
+            "twitch": "Kevreañ gant Twitch",
+            "discord": "Kevreañ gant Discord",
+            "google": "Kevreañ gant Google"
+        },
+        "forgotPass": "Ankounac'haet ho ker-tremen ?",
+        "authInProgress": "Dilesadur o vont war-raok, gortozit mar plij…",
+        "title": "Kevreañ ouzh ho kont Oengus"
     },
     "register": {
         "thank_you": "Trugarez !"
@@ -30,10 +52,90 @@
             }
         },
         "home": {
-            "language": "Yezh"
+            "language": "Yezh",
+            "from": "Adalek",
+            "to": "Betek"
         },
         "menu": {
-            "home": "Degemer"
+            "home": "Degemer",
+            "settings": "Arventennoù"
+        },
+        "new": {
+            "title": "Krouiñ ur maraton nevez"
+        },
+        "schedule": {
+            "management": {
+                "horaro": {
+                    "appName": "Horaro"
+                }
+            }
         }
+    },
+    "navbar": {
+        "about": "A-zivout",
+        "createMarathon": "Maraton nevez",
+        "login": {
+            "title": "Kevreañ",
+            "twitch": "Kevreañ gant Twitch",
+            "twitter": "Kevreañ gant Twitter",
+            "mastodon": "Kevreañ gant Mastodon",
+            "google": "Kevreañ gant Google",
+            "password": "Kevreañ gant un anv implijer hag ur ger-tremen",
+            "discord": "Kevreañ gant Discord"
+        },
+        "logout": "Digevreañ",
+        "profile": "Ma frofil",
+        "settings": "Arventennoù",
+        "twitter": "Heuilhit ac'hanomp war Twitter",
+        "mastodon": "Heuilhit ac'hanomp war Mastodon",
+        "patrons": "Hor donezonerien",
+        "sourceCode": "Boneg tarzh"
+    },
+    "news": {
+        "title": "Keleier"
+    },
+    "language": {
+        "fr": "Galleg",
+        "en": "Saozneg"
+    },
+    "homepage": {
+        "welcomeTitle": "Donemat war Oengus !",
+        "marathons": {
+            "upcoming": "Maratonioù da zont"
+        },
+        "sponsors": {
+            "patreon": {
+                "nobody": "N'eus sponsors ebet gant Oengus !",
+                "patrons": "donezonerien"
+            },
+            "title": "Sponsors"
+        }
+    },
+    "platform": {
+        "EMAIL": "Postel",
+        "PHONE": "Niverenn bellgomz",
+        "NICO": "Nico",
+        "YOUTUBE": "YouTube",
+        "DISCORD": "Discord",
+        "SNAPCHAT": "Snapchat",
+        "BLUESKY": "Bluesky",
+        "SPEEDRUNCOM": "speedrun.com",
+        "MASTODON": "Mastodon",
+        "TWITTER": "Twitter",
+        "TWITCH": "Twitch",
+        "FACEBOOK": "Facebook",
+        "INSTAGRAM": "Instagram"
+    },
+    "user": {
+        "settings": {
+            "deletingAccount": {
+                "settingsDeleteBtn": "Dilemel ar gont",
+                "btnDelete": "Dilemel ar gont :(",
+                "btnCancel": "Nullañ :)"
+            }
+        }
+    },
+    "patrons": {
+        "title": "Hor donezonerien"
     }
 }

@@ -133,7 +133,7 @@
                 "error": "Une erreur est survenue lors de l'authentification. Merci de réessayer ou de contacter un administrateur.",
                 "usernameExists": "Le nom associé au compte avec lequel vous essayez de vous inscrire existe déjà. Veuillez vous assurer que vous n'avez pas déjà un profil Oengus synchronisé avec un autre compte externe. Si vous pensez qu'il s'agit d'un faux positif, veuillez contacter un administrateur.",
                 "passwordResetRequired": "Afin de pouvoir vous connecter, vous allez devoir réinitialiser votre mot de passe ; veuillez nous excuser.",
-                "noAccountFound": "Compte non trouvé, veuillez vous enregistrer avec un nouveau compte ou vous synchroniser avec un compte déjà créé."
+                "noAccountFound": "Votre compte n'a pas été trouvé, veuillez créer un nouveau compte ou vous synchroniser avec un compte déjà créé."
             },
             "sync": {
                 "alreadySynced": "Erreur : ce compte est déjà utilisé",
@@ -231,7 +231,7 @@
         "button": "Se connecter",
         "password": {
             "hide": "Masquer le mot de passe",
-            "show": "Rendre le mot de passé visible"
+            "show": "Rendre le mot de passe visible"
         },
         "title": "Connectez-vous à votre compte Oengus",
         "forgotPass": "Vous avez oublié votre mot de passe ?"
@@ -1116,14 +1116,14 @@
             "deletingAccount": {
                 "success": "Votre compte a été supprimé",
                 "btnCancel": "Annuler :)",
-                "btnDelete": "Supprimer compte :(",
+                "btnDelete": "Supprimer le compte :(",
                 "body": [
                     "Vous êtes sur le point de supprimer votre compte Oengus.",
                     "CETTE ACTION NE PEUT ÊTRE ANNULÉE !",
                     "Veuillez entrer votre nom de compte ci-dessous pour confirmer la suppression du compte."
                 ],
                 "title": "Attention !",
-                "settingsDeleteBtn": "Supprimer compte"
+                "settingsDeleteBtn": "Supprimer le compte"
             },
             "language": {
                 "placeholder": "Écrire pour trouver une langue",
@@ -1555,7 +1555,7 @@
     "register": {
         "submit": "S'inscrire !",
         "login_hint": "Sinon, vous pouvez déjà {{login-link}} si vous voulez.",
-        "email_sent": "Nous vous avons envoyé un e-mail dans votre boîte mail, veuillez cliquer sur le lien à l'intérieur pour vérifier votre adresse e-mail.",
+        "email_sent": "Nous avons envoyé un e-mail dans votre boîte de réception, veuillez cliquer sur le lien à l'intérieur pour vérifier votre adresse e-mail.",
         "thank_you": "Merci !"
     },
     "editor": {

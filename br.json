@@ -2,6 +2,9 @@
     "aboutPage": {
         "about": {
             "title": "A-zivout"
+        },
+        "contact": {
+            "title": "Darempred"
         }
     },
     "action": {
@@ -12,7 +15,9 @@
         "sendTweet": "Kas tweet",
         "delete": "Dilemel",
         "import": "Enporzhiañ",
-        "share": "Rannañ"
+        "share": "Rannañ",
+        "shareMastodon": "Rannañ war mastodon",
+        "shareBluesky": "Embann war bluesky"
     },
     "calendar": {
         "now": "Bremañ",
@@ -68,6 +73,11 @@
                 "horaro": {
                     "appName": "Horaro"
                 }
+            }
+        },
+        "settings": {
+            "country": {
+                "label": "Bro"
             }
         }
     },
@@ -132,7 +142,24 @@
                 "settingsDeleteBtn": "Dilemel ar gont",
                 "btnDelete": "Dilemel ar gont :(",
                 "btnCancel": "Nullañ :)"
+            },
+            "language": {
+                "label": "Yezhoù a vez komzet ganeoc'h",
+                "no_results": "Yezh ebet bet kavet"
+            },
+            "password": {
+                "label": "Ger-tremen",
+                "changeLabel": "Kemmañ ar ger-tremen"
+            },
+            "username": {
+                "label": "Anv implijer"
+            },
+            "email": {
+                "label": "Postel"
             }
+        },
+        "profile": {
+            "speak": "Yezhoù a vez komzet:"
         }
     },
     "patrons": {

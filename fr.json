@@ -1513,7 +1513,8 @@
         "pl": "polonais",
         "da": "danois",
         "tr": "turc",
-        "pt": "portugais"
+        "pt": "portugais",
+        "br": "Breton"
     },
     "platform": {
         "NICO": "Nico",

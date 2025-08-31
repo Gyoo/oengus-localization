@@ -124,7 +124,8 @@
         "edit": "Muokkaa",
         "delete": "Poista",
         "share": "Jaa",
-        "import": "Tuo"
+        "import": "Tuo",
+        "shareBluesky": "Kerro blueskyssa"
     },
     "marathon": {
         "submit": {
@@ -160,7 +161,9 @@
                     "label": "Tyyppi"
                 },
                 "opponent": {
-                    "with": "Kanssa:"
+                    "with": "Kanssa:",
+                    "andMore": "{{opponentList}} ja {{count}} lisää",
+                    "waiting": "Odotetaan \t{{count}} pelaajaa..."
                 },
                 "estimate": {
                     "label": "Aika-arvio",
@@ -195,6 +198,12 @@
                     },
                     "label": "Kategorian kuvaus",
                     "help": "Anna kuvaus tästä kategoriasta"
+                },
+                "expectedRunners": {
+                    "label": "Oletettu pelaajien määrä",
+                    "help": {
+                        "explanation": "Lisää montako pelaajaa tulee olemaan tässä kategoriassa. Tämä sisältää itsesi, joten jos kisassa on sinä ja joku toinen, niin pelaajamäärä on 2."
+                    }
                 }
             },
             "availabilities": {
@@ -236,7 +245,7 @@
             },
             "multiplayer": {
                 "code": {
-                    "help": "Lisää koodi liittyäksesi moninpeliehdotukseen"
+                    "help": "Jos olet saanut monipelikoodin lisää koodi liittyäksesi"
                 },
                 "title": "Moninpelikategoriat"
             },
@@ -263,7 +272,13 @@
                 "submit": "Minä ilmoitin {{games}} {{marathon}}-tapahtumaan"
             },
             "maxNumberOfScreens": "Maksimimäärä pelaajia per peli/moninpeli",
-            "details": "Yksityiskohdat"
+            "details": "Yksityiskohdat",
+            "import": {
+                "title": "Tuo tallennettu pelitieto",
+                "description": "Tuodaksesi pelit, valitse ne ja paina tuo. Voit pitää {{ctrlKey}}-näppäintä valittaessa monta peliä.",
+                "settingsHint": "Jos alla oleva lista on tyhjä, voit tallentaa niitä klikkaamalla nimeäsi yläoikealla ja valitsemalla \"tallenna pelejä\"",
+                "ctrlKey": "ctrl"
+            }
         },
         "submissions": {
             "title": "Ilmoittautumiset",
@@ -352,7 +367,8 @@
             },
             "marathonDescription": {
                 "label": "Kuvaus",
-                "help": "Merkintäkieli tuettu"
+                "help": "Merkintäkieli tuettu",
+                "markdown": "Markdown opas löytyy täältä: {{link}}"
             },
             "location": {
                 "label": "Sijainti"
@@ -680,7 +696,8 @@
                     "create-new": "luo uusi aikataulu",
                     "title": "Hallitse olemassaolevaa tai {{create-new}}",
                     "scheduleHeader": "Sinun aikataulusi:",
-                    "nothingFound": "Ei aikatauluja"
+                    "nothingFound": "Ei aikatauluja",
+                    "scheduleCount": "Sinulla on tällä hetkellä {{total}} aikataulua luotuna, maksimi on {{maxSchedules}}."
                 },
                 "settings": {
                     "createTitle": "Luo uusi aikataulu",
@@ -1044,7 +1061,8 @@
         "pl": "puola",
         "da": "tanska",
         "tr": "turkki",
-        "pt": "portugali"
+        "pt": "portugali",
+        "br": "Breton"
     },
     "platform": {
         "DISCORD": "Discord",
@@ -1091,7 +1109,8 @@
         "email-verification": {
             "request-btn": "Pyydä uusi vahvistusviesti",
             "message": "Hei! Näyttää siltä ettet ole vahvistanut sähköpostiosoitettasi. Ennen kuin olet vahvistanut sähköpostiosoitteesi et voi tehdä mitään. Tähän sisältyy myös ilmoittautumiset tapahtumiin."
-        }
+        },
+        "savedGames": "Tallennetut pelit"
     },
     "user": {
         "profile": {
@@ -1242,7 +1261,17 @@
                     "required": "Salasana vaaditaan"
                 },
                 "changeLabel": "Vaihda salasana"
+            },
+            "savedGames": {
+                "label": "Tallennettujen pelien näkyvyys",
+                "yesOption": "Näytä tallennetut pelit julkisesti"
             }
+        },
+        "savedGames": {
+            "header": "Tallennettujen pelien asetus",
+            "patronNudge": "Jos tuet Oengusta patreonissa, voit lisätä ja muokata tallennettuja pelejäsi tässä",
+            "instruction1": "Tallennettuja pelejä voidaan näyttää profiilissasi (näkyvyyden voi vaihtaa asetuksissa) ja ne voidaan lisätä tapahtumiin.",
+            "cacheWarning": "Kaikki muutokset tässä saattaa kestää **24 tuntia**, jotta se näkyy profiilissa. Ei hätää, automaattinen täyttö toimii."
         }
     },
     "country": {
@@ -1546,5 +1575,13 @@
         "email_sent": "Lähetimme sinulle sähköpostia, klikkaa viestissä olevaa linkkiä vahvistaaksesi sähköpostiosoitteesi.",
         "login_hint": "Vaihtoehtoisesti voit jo {{login-link}}, jos haluat.",
         "submit": "Liity!"
+    },
+    "editor": {
+        "markdown": {
+            "controls": {
+                "edit": "Muokkaa",
+                "preview": "Esikatsele"
+            }
+        }
     }
 }

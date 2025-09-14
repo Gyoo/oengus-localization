@@ -146,7 +146,7 @@
         },
         "generic": {
             "clipboardOk": "Copié dans votre presse papier !",
-            "validationError": "Il y a eu un problème. Pour plus d'informations, veuillez regardez les erreurs de validations. Si le problème persiste, veuillez contacter le support sur discord."
+            "validationError": "Il y a eu un problème. Pour plus d'informations, veuillez vérifier les erreurs de validations. Si le problème persiste, veuillez contacter le support sur discord."
         }
     },
     "calendar": {
@@ -443,12 +443,12 @@
                 },
                 "overview": {
                     "nothingFound": "Pas de planning trouvé",
-                    "title": "Gérer ce qui existe ou {{create-new}}",
+                    "title": "Gérer éléments existants ou {{create-new}}",
                     "scheduleHeader": "Vos plannings :",
                     "create-new": "créer un nouveau planning",
                     "scheduleCount": "Vous avez actuellement {{total}} sur un maximum de {{maxSchedules}} horaire(s) créé."
                 },
-                "plsUseTheNewUi": "Vous êtes en train d'utiliser l'ancienne interface pour gérer des plannings, elle est instable et peut se casser. S'il vous plait changez pour la page marquée comme \"nouvelle\" pour une meilleur expérience !",
+                "plsUseTheNewUi": "Vous êtes en train d'utiliser l'ancienne interface pour gérer des plannings, elle est instable et peut se casser. Veuillez s'il vous plait changez vers la page marquée comme \"nouvelle\" pour une meilleure expérience !",
                 "horaro": {
                     "missingFeature": "Oengus ne supporte actuellement pas la possibilité de personnaliser les colonnes pour votre agenda. Besoin désespérément de cette fonctionnalité? Essayez {{horaro}} !",
                     "appName": "Horaro"
@@ -994,6 +994,11 @@
                     "lead": "Ce marathon nécessite que vous soyez sur leur serveur Discord afin de soumettre",
                     "title": "Attendez !"
                 }
+            },
+            "import": {
+                "title": "Importer speedrun enregistré",
+                "description": "Pour importer vos runs, veuillez les sélectionner et appuyer sur importer. Vous pouvez maintenir la touche {{ctrlKey}} pour sélectionner plusieurs éléments.",
+                "settingsHint": "Si la liste ci-dessous est vide, vous pouvez sauvegarder des runs en cliquant sur votre nom en haut à droite puis en sélectionnant \"Speedruns sauvegardés\""
             }
         }
     },
@@ -1027,7 +1032,8 @@
         "email-verification": {
             "request-btn": "Demander un nouveau mail de vérification",
             "message": "Veuillez vérifier votre adresse e-mail. Tant que ce ne sera pas fait vous ne pourrez rien faire, notamment postuler aux évènements."
-        }
+        },
+        "savedGames": "Speedruns Sauvegardés"
     },
     "user": {
         "profile": {
@@ -1178,7 +1184,14 @@
                 "enableButton": "Activer l'authentification à deux facteurs",
                 "disableButton": "Désactiver l'authentification à deux facteurs",
                 "label": "authentification à deux facteurs"
+            },
+            "savedGames": {
+                "label": "Visibilité des parties sauvegardées",
+                "yesOption": "Afficher mes parties sauvegardées publiquement"
             }
+        },
+        "savedGames": {
+            "header": "Paramètres de Speedruns sauvegardés"
         }
     },
     "patrons": {

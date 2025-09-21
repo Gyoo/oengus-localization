@@ -166,7 +166,13 @@
             "maxNumberOfScreens": "Numero massimo di runner per gara / run in co-op",
             "maxGamesPerRunner": "Numero massimo di giochi per runner",
             "maxCategoriesPerGame": "Numero massimo di categorie per gioco",
-            "details": "Dettagli"
+            "details": "Dettagli",
+            "import": {
+                "title": "Importa speedrun salvata",
+                "description": "Per importare le tue run, selezionale e poi premi Importa. Puoi tenere premuto il tasto {{ctrlKey}} per selezionare più elementi.",
+                "settingsHint": "Se l’elenco qui sotto è vuoto, puoi salvare le run facendo clic sul tuo nome in alto a destra e poi selezionando \"Speedrun salvate\"",
+                "ctrlKey": "ctrl"
+            }
         },
         "submissions": {
             "title": "Proposte",
@@ -271,7 +277,8 @@
             },
             "marathonDescription": {
                 "label": "Descrizione",
-                "help": "Markdown supportato"
+                "help": "Markdown supportato",
+                "markdown": "È disponibile una guida markdown a questo link: {{link}}"
             },
             "language": {
                 "label": "Lingua"
@@ -612,7 +619,8 @@
                     "scheduleHeader": "Le tue programmazioni:",
                     "create-new": "crea una nuova programmazione",
                     "nothingFound": "Nessuna programmazione trovata",
-                    "title": "Gestisci esistenti o {{create-new}}"
+                    "title": "Gestisci esistenti o {{create-new}}",
+                    "scheduleCount": "Attualmente hai creato {{total}} pianificazione/i su un massimo di {{maxSchedules}}."
                 },
                 "markdown": "Puoi usare la sintassi basica di Markdown (**grassetto**, _corsivo_, e [nome link](https://oengus.io/)) nel gioco e nei campi categoria."
             },
@@ -1466,7 +1474,8 @@
         "NICO": "Nico",
         "YOUTUBE": "YouTube",
         "MASTODON": "Mastodon",
-        "BLUESKY": "Bluesky"
+        "BLUESKY": "Bluesky",
+        "SPEEDRUNSME": "speedruns.me"
     },
     "language": {
         "de": "tedesco",

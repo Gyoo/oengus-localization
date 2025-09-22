@@ -135,7 +135,8 @@
         "TWITTER": "Twitter",
         "TWITCH": "Twitch",
         "FACEBOOK": "Facebook",
-        "INSTAGRAM": "Instagram"
+        "INSTAGRAM": "Instagram",
+        "SPEEDRUNSME": "speedruns.me"
     },
     "user": {
         "settings": {

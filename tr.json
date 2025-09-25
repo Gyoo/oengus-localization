@@ -1514,7 +1514,8 @@
         "DISCORD": "Discord",
         "INSTAGRAM": "Instagram",
         "SNAPCHAT": "Snapchat",
-        "BLUESKY": "Bluesky"
+        "BLUESKY": "Bluesky",
+        "SPEEDRUNSME": "speedruns.me"
     },
     "errors": {
         "403": {

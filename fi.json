@@ -212,11 +212,11 @@
                 "from": "Mistä",
                 "actions": "Toiminnot",
                 "error": {
-                    "required": "Sinun täytyy lisätä yksi tai enemmän saatavuusajanjaksoa",
+                    "required": "Sinun täytyy lisätä yksi tai enemmän käytettävyysajanjakso",
                     "dateRequired": "Päivämäärä vaaditaan",
                     "toDateTooLittle": "Saatavuus tulee olla vähintään minuutin pituinen."
                 },
-                "add": "Lisää saatavuus",
+                "add": "Lisää käytettävyys",
                 "duplicate": "Kopio seuraavalle päivälle"
             },
             "action": {
@@ -1077,7 +1077,8 @@
         "PHONE": "Puhelinnumero",
         "YOUTUBE": "YouTube",
         "MASTODON": "Mastodon",
-        "BLUESKY": "Bluesky"
+        "BLUESKY": "Bluesky",
+        "SPEEDRUNSME": "speedruns.m"
     },
     "navbar": {
         "login": {

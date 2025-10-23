@@ -445,7 +445,8 @@
                     "create-new": "crear un nuevo horario",
                     "scheduleHeader": "Tus horarios:",
                     "nothingFound": "No hay horarios",
-                    "title": "Gestionar existente o {{create-new}}"
+                    "title": "Gestionar existente o {{create-new}}",
+                    "scheduleCount": "Actualmente tienes {{total}} de un máximo de {{maxSchedules}} horarios creados."
                 },
                 "plsUseTheNewUi": "Actualmente estás utilizando la antigua interfaz de usuario para la gestión de horarios, es inestable y puede fallar. ¡Por favor, cambia a la página marcada como \"nueva\" para una mejor experiencia!",
                 "horaro": {
@@ -632,7 +633,8 @@
             },
             "marathonDescription": {
                 "help": "Compatible con Markdown",
-                "label": "Descripción"
+                "label": "Descripción",
+                "markdown": "En este enlace encontrarás una guía sobre markdown: {{link}}"
             },
             "maxCategoriesPerGame": {
                 "error": {
@@ -992,6 +994,10 @@
                     "lead": "Esta maratón requiere que estés en su servidor de Discord antes de poder postular",
                     "title": "¡Espera!"
                 }
+            },
+            "import": {
+                "title": "Importar speedrun guardada",
+                "ctrlKey": "ctrl"
             }
         }
     },
@@ -1025,7 +1031,8 @@
         "email-verification": {
             "request-btn": "Solicitar un nuevo correo de verificación",
             "message": "Verifique su dirección de correo electrónico. Hasta entonces no podrá hacer nada, ni siquiera inscribirse en eventos."
-        }
+        },
+        "savedGames": "Speedruns guardadas"
     },
     "user": {
         "profile": {
@@ -1526,7 +1533,8 @@
         "SPEEDRUNCOM": "speedrun.com",
         "MASTODON": "Mastodon",
         "YOUTUBE": "YouTube",
-        "BLUESKY": "Bluesky"
+        "BLUESKY": "Bluesky",
+        "SPEEDRUNSME": "speedruns.me"
     },
     "news": {
         "title": "Noticias"

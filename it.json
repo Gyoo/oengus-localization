@@ -1152,7 +1152,17 @@
                 },
                 "changeLabel": "Cambia password",
                 "label": "Password"
+            },
+            "savedGames": {
+                "yesOption": "Mostra pubblicamente i miei salvataggi di gioco",
+                "label": "Visibilità dei salvataggi di gioco"
             }
+        },
+        "savedGames": {
+            "header": "Impostazioni delle speedrun salvate",
+            "patronNudge": "Se sostieni Oengus su Patreon, potrai aggiungere e modificare le tue speedrun salvate qui",
+            "instruction1": "Le speedrun salvate possono essere mostrate nel tuo profilo (opzione attivabile nelle impostazioni) e compilate automaticamente quando le invii agli eventi.",
+            "cacheWarning": "Qualsiasi modifica effettuata qui potrebbe richiedere fino a **24 ore** per aggiornarsi nel tuo profilo. Non preoccuparti, la compilazione automatica non ne sarà influenzata."
         }
     },
     "errors": {
@@ -1208,7 +1218,8 @@
             "request-btn": "Richiedi una nuova email di verifica"
         },
         "mastodon": "Seguici su Mastodon",
-        "register": "Registrati"
+        "register": "Registrati",
+        "savedGames": "Speedrun salvate"
     },
     "country": {
         "AF": "Afghanistan",
@@ -1535,7 +1546,10 @@
         "pl": "polacco",
         "da": "danese",
         "tr": "turco",
-        "pt": "portoghese"
+        "pt": "portoghese",
+        "br": "Bretone",
+        "la": "Latino",
+        "sq": "Albanese"
     },
     "announcements": {
         "twitterRemoval": "Ciao, a breve rimoveremo twitter dalle opzioni per effettuare il login. Assicurati di avere collegato il tuo account Twitch o Discord all'account Oengus per evitare di perdere l'accesso."
@@ -1564,5 +1578,13 @@
     },
     "news": {
         "title": "Novità"
+    },
+    "editor": {
+        "markdown": {
+            "controls": {
+                "edit": "Modifica",
+                "preview": "Anteprima"
+            }
+        }
     }
 }

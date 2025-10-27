@@ -1527,7 +1527,9 @@
         "da": "danois",
         "tr": "turc",
         "pt": "portugais",
-        "br": "Breton"
+        "br": "Breton",
+        "sq": "albanais",
+        "la": "latin"
     },
     "platform": {
         "NICO": "Nico",

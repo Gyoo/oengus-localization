@@ -1062,7 +1062,9 @@
         "da": "tanska",
         "tr": "turkki",
         "pt": "portugali",
-        "br": "Breton"
+        "br": "Breton",
+        "la": "Latina",
+        "sq": "Albaani"
     },
     "platform": {
         "DISCORD": "Discord",

@@ -757,7 +757,13 @@
             "maxGamesPerRunner": "Koşucu başına maksimum oyun",
             "maxNumberOfScreens": "Yarış/küme başına maksimum koşucu sayısı",
             "submitsClosed": "Başvurular artık kapalı. Uygunluk durumunuzu yalnızca program yayınlanana kadar güncelleyebilirsiniz.",
-            "title": "Çalıştırmayı gönder"
+            "title": "Çalıştırmayı gönder",
+            "import": {
+                "title": "Kaydedilen hız koşusunu içe aktar",
+                "description": "Koşularınızı içe aktarmak için lütfen öğeleri seçin ve ardından içe aktar düğmesine basın. {{ctrlKey}} tuşunu basılı tutarak birden fazla öğeyi seçebilirsiniz.",
+                "settingsHint": "Aşağıdaki liste boşsa, sağ üst köşedeki adınıza tıklayıp \"Kaydedilen Hızlı Koşular\"ı seçerek koşularınızı kaydedebilirsiniz.",
+                "ctrlKey": "ctrl"
+            }
         }
     },
     "login": {
@@ -1055,7 +1061,10 @@
         "pl": "Lehçe",
         "da": "Danca",
         "tr": "Türkçe",
-        "pt": "Portekizce"
+        "pt": "Portekizce",
+        "br": "Breton",
+        "la": "Latince",
+        "sq": "Arnavutça"
     },
     "navbar": {
         "discord": "Oengus Discord sunucusuna katılın",
@@ -1087,7 +1096,8 @@
         },
         "donate": "Bağış",
         "profile": "Profilim",
-        "settings": "Ayarlar"
+        "settings": "Ayarlar",
+        "savedGames": "Kaydedilen Hızlı Koşuları"
     },
     "user": {
         "profile": {
@@ -1238,7 +1248,17 @@
                 "disabled": {
                     "help": "Discord hesabınızı senkronize ettiğiniz için bu alan devre dışı bırakıldı. Discord adınız değiştiyse lütfen güncellemek için Discord hesabınızı tekrar senkronize edin."
                 }
+            },
+            "savedGames": {
+                "label": "Kaydedilen oyunların görünürlüğü",
+                "yesOption": "Kaydedilmiş oyunlarımı herkese açık olarak göster"
             }
+        },
+        "savedGames": {
+            "header": "Kaydedilen Speedrun ayarları",
+            "patronNudge": "Patreon'da Oengus'u seviyorsanız kaydettiğiniz hız koşularını buradan ekleyebilir ve değiştirebilirsiniz",
+            "instruction1": "Kaydedilen hız koşuları profilinde gösterilebilir (ayarlar bölümünden açıp kapatılabilir) ve etkinliklere gönderirken otomatik olarak doldurulabilir.",
+            "cacheWarning": "Burada yaptığınız değişikliklerin profilinizde güncellenmesi **24 saat** sürebilir. Endişelenmeyin, otomatik doldurma özelliği etkilenmez."
         }
     },
     "patrons": {

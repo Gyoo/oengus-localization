@@ -17,7 +17,9 @@
         "import": "Enporzhiañ",
         "share": "Rannañ",
         "shareMastodon": "Rannañ war mastodon",
-        "shareBluesky": "Embann war bluesky"
+        "shareBluesky": "Embann war bluesky",
+        "accept": "Aotren",
+        "save": "Enrollañ"
     },
     "calendar": {
         "now": "Bremañ",
@@ -107,7 +109,8 @@
     "language": {
         "fr": "Galleg",
         "en": "Saozneg",
-        "br": "Brezhoneg"
+        "br": "Brezhoneg",
+        "la": "Latin"
     },
     "homepage": {
         "welcomeTitle": "Donemat war Oengus !",

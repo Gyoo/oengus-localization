@@ -505,7 +505,7 @@
             "multiplayer": {
                 "title": "멀티플레이 카테고리",
                 "code": {
-                    "help": "멀티 플레이 제출에 참가하려면 아래의 코드를 입력해주세요"
+                    "help": "멀티플레이어/레이스 코드를 받으셨다면 아래에 입력하여 카테고리에 참여하세요"
                 }
             },
             "maxNumberOfScreens": "경쟁/협동 런의 최대 참가자 수",
@@ -1113,7 +1113,7 @@
         }
     },
     "navbar": {
-        "twitter": "X 팔로우",
+        "twitter": "X에서 팔로우하기",
         "translate": "사이트 번역 돕기",
         "sourceCode": "소스 코드",
         "settings": "설정",
@@ -1136,13 +1136,14 @@
         "bugtracker": "버그 제보 및 제안",
         "patrons": "Patrons 후원",
         "about": "관하여",
-        "mastodon": "마스토돈에서 팔로우하기",
+        "mastodon": "Mastodon에서 팔로우하기",
         "email-verification": {
             "request-btn": "새 인증 이메일 요청",
-            "message": "안녕하세요! 아직 이메일 주소를 인증하지 않은 것 같습니다. 인증된 이메일이 없는 사용자는 나중에 삭제될 수 있습니다."
+            "message": "이메일 주소를 확인해 주세요. 그때까지는 이벤트 제출을 포함하되 이에 국한되지 않는 어떤 활동도 하실 수 없습니다."
         },
         "displayNameNotification": "안녕하세요! 프로필에 표시 이름이 누락된 것 같습니다. 설정으로 이동하여 설정하세요!",
-        "register": "등록"
+        "register": "등록",
+        "savedGames": "저장된 스피드런"
     },
     "errors": {
         "403": {
@@ -1491,7 +1492,8 @@
         "NICO": "Nico",
         "YOUTUBE": "유튜브",
         "MASTODON": "Mastodon",
-        "BLUESKY": "Bluesky"
+        "BLUESKY": "Bluesky",
+        "SPEEDRUNSME": "speedruns.me"
     },
     "news": {
         "title": "뉴스"

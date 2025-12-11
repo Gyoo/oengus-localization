@@ -37,7 +37,8 @@
         "edit": "Editar",
         "delete": "Excluir",
         "share": "Compartilhar",
-        "import": "Importar"
+        "import": "Importar",
+        "shareBluesky": "Postar no bluesky"
     },
     "alert": {
         "category": {
@@ -131,7 +132,8 @@
                 "disabledAccount": "Sua conta está desabilitada. Se você deseja utilizar ela novamente, contate um administrador.",
                 "error": "Um erro ocorreu durante a autenticação. Por favor tente novamente ou contate um administrador.",
                 "usernameExists": "O nome de usuário vinculado na conta que você está tentando logar já existe. Tenha certeza que você já não criou um perfil no Oengus com outro método de login. Se você acha que este é um falso positivo, por favor contate um administrador.",
-                "noAccountFound": "Conta não encontrada. Cadastre-se para uma nova conta ou sincronize com uma conta existente."
+                "noAccountFound": "Conta não encontrada. Cadastre-se para uma nova conta ou sincronize com uma conta existente.",
+                "passwordResetRequired": "Para efetuar o login, você precisará redefinir sua senha. Pedimos desculpas por isso."
             },
             "sync": {
                 "alreadySynced": "Erro: Esta conta já existe",
@@ -428,7 +430,8 @@
             "generalTitle": "Configurações gerais",
             "marathonDescription": {
                 "label": "Descrição",
-                "help": "Markdown é suportado"
+                "help": "Markdown é suportado",
+                "markdown": "Um guia de Markdown está disponível neste link: {{link}}"
             },
             "privacy": {
                 "private": "Privada",
@@ -575,7 +578,13 @@
                 "label": "Status dos incentivos",
                 "disabledNotification": "Os incentivos estão atualmente desativados porque não são confiáveis e não possuem uma opção para examiná-los. Não há estimativa de quando essa funcionalidade retornará, mas anunciaremos se isso acontecer."
             },
-            "incentivesTitle": "Configurações de incentivos"
+            "incentivesTitle": "Configurações de incentivos",
+            "bluesky": {
+                "error": {
+                    "pattern": "Nome de usuário inválido. Certifique-se de que seu nome de usuário comece com '@' (ex.: @oengus.bsky.app)",
+                    "maxlength": "O nome Bluesky é muito longo"
+                }
+            }
         },
         "incentives": {
             "title": "Incentivos",
@@ -724,7 +733,15 @@
                     "label": "Tipo"
                 },
                 "opponent": {
-                    "with": "Com:"
+                    "with": "Com:",
+                    "andMore": "{{opponentList}} e {{count}} mais",
+                    "waiting": "Aguardando a entrada de {{count}} corredores..."
+                },
+                "expectedRunners": {
+                    "label": "Número esperado de corredores",
+                    "help": {
+                        "explanation": "Insira o número de corredores esperados para esta categoria. Este número inclui você. Portanto, se esta categoria for uma corrida entre você e outra pessoa, você precisa inserir 2."
+                    }
                 }
             },
             "table": {
@@ -758,7 +775,7 @@
             "multiplayer": {
                 "title": "Categorias multiplayer",
                 "code": {
-                    "help": "Por favor, insira abaixo um código para participar de uma inscrição com vários jogadores"
+                    "help": "Se você recebeu um código de multijogador/corrida, insira-o abaixo para entrar na categoria"
                 }
             },
             "submissions": "Inscrições",
@@ -816,7 +833,13 @@
             "tweet": {
                 "submit": "Enviei {{games}} para {{marathon}}"
             },
-            "maxNumberOfScreens": "Número máximo de corredores por corrida/cooperativa"
+            "maxNumberOfScreens": "Número máximo de corredores por corrida/cooperativa",
+            "import": {
+                "title": "Importar speedrun salvo",
+                "description": "Para importar suas execuções, selecione-as e pressione \"Importar\". Você pode manter pressionada a tecla {{ctrlKey}} para selecionar vários itens.",
+                "settingsHint": "Se a lista abaixo estiver vazia, você pode salvar suas corridas clicando no seu nome no canto superior direito e selecionando \"Speedruns Salvas\"",
+                "ctrlKey": "ctrl"
+            }
         },
         "selection": {
             "statistics": {
@@ -862,7 +885,8 @@
                 "title": "Exportar agendamento",
                 "csv": "Exportar para CSV",
                 "ics": "Exportar para ICS",
-                "json": "Exportar para JSON (Horaro)"
+                "json": "Exportar para JSON (Horaro)",
+                "gdq": "Rastreador de doações GDQ (ferramenta externa)"
             },
             "timezone": "Todas as datas e horários são dados em seu fuso horário local.",
             "table": {
@@ -913,7 +937,8 @@
                     "title": "Gerenciar existente ou {{create-new}}",
                     "create-new": "criar um novo agendamento",
                     "scheduleHeader": "Seus agendamentos:",
-                    "nothingFound": "Nenhum agendamento encontrado"
+                    "nothingFound": "Nenhum agendamento encontrado",
+                    "scheduleCount": "Você tem atualmente {{total}} de um máximo de {{maxSchedules}} agendamentos criados."
                 },
                 "settings": {
                     "createTitle": "Crie um novo agendamento",
@@ -939,7 +964,11 @@
                     "editTitle": "Editando: {{scheduleName}}",
                     "customLabel": "Rótulo personalizado"
                 },
-                "plsUseTheNewUi": "No momento, você está usando a interface antiga para gerenciar agendamentos. Ela é instável e pode falhar. Mude para a página marcada como \"nova\" para uma melhor experiência!"
+                "plsUseTheNewUi": "No momento, você está usando a interface antiga para gerenciar agendamentos. Ela é instável e pode falhar. Mude para a página marcada como \"nova\" para uma melhor experiência!",
+                "horaro": {
+                    "missingFeature": "O Oengus atualmente não oferece suporte à personalização das colunas da sua agenda. Precisa muito dessa funcionalidade? Experimente o {{horaro}}!",
+                    "appName": "Horaro"
+                }
             },
             "title": "Agendamento",
             "nextRun": "Próxima corrida {{duration}}",
@@ -1283,7 +1312,10 @@
         "pl": "polonês",
         "da": "dinamarquês",
         "tr": "turco",
-        "pt": "português"
+        "pt": "português",
+        "br": "Bretã",
+        "la": "Latin",
+        "sq": "Albanês"
     },
     "platform": {
         "NICO": "Nico",
@@ -1297,7 +1329,9 @@
         "TWITTER": "Twitter",
         "SPEEDRUNCOM": "speedrun.com",
         "YOUTUBE": "YouTube",
-        "MASTODON": "Mastodon"
+        "MASTODON": "Mastodon",
+        "BLUESKY": "Bluesky",
+        "SPEEDRUNSME": "speedruns.me"
     },
     "user": {
         "profile": {
@@ -1448,7 +1482,17 @@
                     "pattern": "O nome de usuário Speedrun.com é inválido",
                     "max": "O nome de usuário do Speedrun.com é muito longo"
                 }
+            },
+            "savedGames": {
+                "label": "Visibilidade dos jogos salvos",
+                "yesOption": "Exibir meus jogos salvos publicamente"
             }
+        },
+        "savedGames": {
+            "header": "Configurações de Speedrun salvas",
+            "patronNudge": "Se você apoia o Oengus no Patreon, poderá adicionar e modificar seus speedruns salvos aqui",
+            "instruction1": "Os speedruns salvos podem ser exibidos no seu perfil (opção configurável ou ativada/desativada nas configurações) e preenchidos automaticamente ao serem enviados para eventos.",
+            "cacheWarning": "Qualquer alteração feita aqui pode levar **24 horas** para ser atualizada no seu perfil. Não se preocupe, o preenchimento automático não será afetado."
         }
     },
     "navbar": {
@@ -1479,9 +1523,10 @@
         "displayNameNotification": "Ei! Parece que está faltando seu nome de exibição em seu perfil. Por favor, acesse suas configurações para configurá-lo!",
         "email-verification": {
             "request-btn": "Solicitar novo e-mail de verificação",
-            "message": "Ei! Parece que você ainda não verificou seu endereço de e-mail. Usuários sem e-mail verificado poderão ser excluídos no futuro."
+            "message": "Por favor, verifique seu endereço de e-mail. Até lá, você não poderá fazer nada, incluindo, mas não se limitando a, inscrever-se em eventos."
         },
-        "mastodon": "Siga-nos no Mastodon"
+        "mastodon": "Siga-nos no Mastodon",
+        "savedGames": "Speedruns Salvas"
     },
     "patrons": {
         "title": "Nossos Apoiadores",
@@ -1533,5 +1578,13 @@
             "title": "Redefina sua senha!"
         },
         "emailVerificationRequired": "Verifique seu endereço de e-mail antes de usar este recurso."
+    },
+    "editor": {
+        "markdown": {
+            "controls": {
+                "edit": "Editar",
+                "preview": "Pré-visualização"
+            }
+        }
     }
 }

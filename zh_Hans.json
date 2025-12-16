@@ -383,6 +383,75 @@
         "import": "导入",
         "save": "保存",
         "share": "分享",
-        "submit": "提交"
+        "submit": "提交",
+        "confirm": "确认",
+        "create": "创建",
+        "join": "加入",
+        "login": "登陆"
+    },
+    "alert": {
+        "generic": {
+            "validationError": "出了某些问题，请检查验证错误。 如果问题仍然存在，请在discord上联系支持。",
+            "clipboardOk": "已复制到你的剪贴板上！"
+        },
+        "category": {
+            "deletion": {
+                "error": "在类别删除时发生了一个错误。请重试或联系管理员。",
+                "success": "类别已删除"
+            }
+        },
+        "donation": {
+            "export": {
+                "error": "输出时发生了一个错误。请重试或联系管理员。"
+            },
+            "validate": {
+                "error": "捐赠过程发生了一个错误。请重试或联系管理员。",
+                "success": "你的捐赠已被发送。感谢你的捐赠！"
+            }
+        },
+        "game": {
+            "deletion": {
+                "error": "游戏删除时发生了一个错误。请重试或联系管理员。",
+                "success": "游戏已删除"
+            }
+        },
+        "selection": {
+            "save": {
+                "error": "选项保存时发生错误",
+                "success": "选项已保存"
+            }
+        },
+        "submission": {
+            "cache": "您的提交可能需要 30 分钟或更长时间才能显示在此列表中",
+            "deletion": {
+                "error": "在提交删除时发生错误。请重试或联系管理员。",
+                "success": "提交已删除"
+            },
+            "save": {
+                "error": "提交过程发生错误",
+                "success": "提交已发送"
+            }
+        },
+        "user": {
+            "deactivate": {
+                "success": "您的帐户已被停用"
+            },
+            "login": {
+                "passwordResetRequired": "若要登录，您需要重设密码，抱歉。",
+                "noAccountFound": "未找到帐户，请注册一个新帐户或与一个现有帐户同步。",
+                "disabledAccount": "您的帐户已被禁用。如果您希望再次使用它，请联系管理员。",
+                "error": "身份验证过程中发生错误。请重试或联系管理员。"
+            },
+            "sync": {
+                "alreadySynced": "错误：此帐户已被使用"
+            },
+            "update": {
+                "error": "用户数据更新过程中发生错误",
+                "success": "用户数据已被更新"
+            }
+        }
+    },
+    "calendar": {
+        "allDay": ""
     }
 }

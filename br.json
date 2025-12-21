@@ -81,6 +81,11 @@
             "country": {
                 "label": "Bro"
             }
+        },
+        "submit": {
+            "import": {
+                "ctrlKey": "ctrl"
+            }
         }
     },
     "navbar": {

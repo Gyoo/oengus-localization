@@ -15,7 +15,8 @@
         "SNAPCHAT": "Snapchat",
         "NICO": "Nico",
         "EMAIL": "E-mail",
-        "BLUESKY": "Bluesky"
+        "BLUESKY": "Bluesky",
+        "SPEEDRUNSME": "speedruns.me"
     },
     "aboutPage": {
         "contact": {
@@ -229,7 +230,8 @@
             "par1": "Oengus to <b>darmowe</b> narzędzie do zarządzanie twoimi maratonami speedrunningowymi, od zgłoszeń do harmonogramu.",
             "par3": "Aby mieć dostęp do wszystkich funkcji, zaloguj się przy użyciu tego linku. Będziesz mógł tworzyć nowe maratony oraz wysyłać zgłoszenia do już istniejących:",
             "par4": {
-                "prod": "Jeżeli chcesz przetestować aplikację przed tworzeniem aplikacji, odwiedź <a href=\"https://sandbox.oengus.io\">sandbox environment</a>. Jest dostępne dla wszystkich twoich"
+                "prod": "Jeżeli chcesz przetestować aplikację przed tworzeniem aplikacji, odwiedź <a href=\"https://sandbox.oengus.io\">sandbox environment</a>. Jest dostępne dla wszystkich twoich",
+                "sandbox": "<b>Znajdujesz się w środowisku sandbox, służącym do celów testowych i poznawczych. Jeśli chcesz utworzyć prawdziwy maraton, przejdź do <a href=\"https://oengus.io\">głównej witryny</a>.</b>"
             }
         },
         "welcomeTitle": "Witaj na stronie Oengus!"

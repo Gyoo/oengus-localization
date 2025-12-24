@@ -133,7 +133,7 @@
                 "error": "Une erreur est survenue lors de l'authentification. Merci de réessayer ou de contacter un administrateur.",
                 "usernameExists": "Le nom associé au compte avec lequel vous essayez de vous inscrire existe déjà. Veuillez vous assurer que vous n'avez pas déjà un profil Oengus synchronisé avec un autre compte externe. Si vous pensez qu'il s'agit d'un faux positif, veuillez contacter un administrateur.",
                 "passwordResetRequired": "Afin de pouvoir vous connecter, vous allez devoir réinitialiser votre mot de passe ; veuillez nous excuser.",
-                "noAccountFound": "Votre compte n'a pas été trouvé, veuillez créer un nouveau compte ou vous synchroniser avec un compte déjà créé."
+                "noAccountFound": "Compte non trouvé, veuillez vous enregistrer avec un nouveau compte ou vous synchroniser avec un compte déjà créé."
             },
             "sync": {
                 "alreadySynced": "Erreur : ce compte est déjà utilisé",
@@ -146,7 +146,7 @@
         },
         "generic": {
             "clipboardOk": "Copié dans votre presse papier !",
-            "validationError": "Il y a eu un problème. Pour plus d'informations, veuillez vérifier les erreurs de validations. Si le problème persiste, veuillez contacter le support sur discord."
+            "validationError": "Il y a eu un problème. Pour plus d'informations, veuillez regardez les erreurs de validations. Si le problème persiste, veuillez contacter le support sur discord."
         }
     },
     "calendar": {
@@ -231,7 +231,7 @@
         "button": "Se connecter",
         "password": {
             "hide": "Masquer le mot de passe",
-            "show": "Rendre le mot de passe visible"
+            "show": "Rendre le mot de passé visible"
         },
         "title": "Connectez-vous à votre compte Oengus",
         "forgotPass": "Vous avez oublié votre mot de passe ?"
@@ -426,7 +426,7 @@
                             "min": "Le slug est trop court",
                             "pattern": "Le slug contient des caractères interdits",
                             "exists": "Vous avez déjà créé un planning avec ce slug",
-                            "required": "Un slug est requis"
+                            "required": "Une slug est requise"
                         },
                         "label": "Url-slug"
                     },
@@ -443,12 +443,12 @@
                 },
                 "overview": {
                     "nothingFound": "Pas de planning trouvé",
-                    "title": "Gérer éléments existants ou {{create-new}}",
+                    "title": "Gérer ce qui existe ou {{create-new}}",
                     "scheduleHeader": "Vos plannings :",
                     "create-new": "créer un nouveau planning",
                     "scheduleCount": "Vous avez actuellement {{total}} sur un maximum de {{maxSchedules}} horaire(s) créé."
                 },
-                "plsUseTheNewUi": "Vous êtes en train d'utiliser l'ancienne interface pour gérer des plannings, elle est instable et peut se casser. Veuillez s'il vous plait changez vers la page marquée comme \"nouvelle\" pour une meilleure expérience !",
+                "plsUseTheNewUi": "Vous êtes en train d'utiliser l'ancienne interface pour gérer des plannings, elle est instable et peut se casser. S'il vous plait changez pour la page marquée comme \"nouvelle\" pour une meilleur expérience !",
                 "horaro": {
                     "missingFeature": "Oengus ne supporte actuellement pas la possibilité de personnaliser les colonnes pour votre agenda. Besoin désespérément de cette fonctionnalité? Essayez {{horaro}} !",
                     "appName": "Horaro"
@@ -994,12 +994,6 @@
                     "lead": "Ce marathon nécessite que vous soyez sur leur serveur Discord afin de soumettre",
                     "title": "Attendez !"
                 }
-            },
-            "import": {
-                "title": "Importer speedrun enregistré",
-                "description": "Pour importer vos runs, veuillez les sélectionner et appuyer sur importer. Vous pouvez maintenir la touche {{ctrlKey}} pour sélectionner plusieurs éléments.",
-                "settingsHint": "Si la liste ci-dessous est vide, vous pouvez sauvegarder des runs en cliquant sur votre nom en haut à droite puis en sélectionnant \"Speedruns sauvegardés\"",
-                "ctrlKey": "ctrl"
             }
         }
     },
@@ -1033,8 +1027,7 @@
         "email-verification": {
             "request-btn": "Demander un nouveau mail de vérification",
             "message": "Veuillez vérifier votre adresse e-mail. Tant que ce ne sera pas fait vous ne pourrez rien faire, notamment postuler aux évènements."
-        },
-        "savedGames": "Speedruns Sauvegardés"
+        }
     },
     "user": {
         "profile": {
@@ -1068,7 +1061,7 @@
             },
             "deactivateAccount": {
                 "action": "Désactiver",
-                "confirmText": "Êtes-vous sûr·e de vouloir désactiver votre compte ? Pour confirmer, veuillez écrire votre pseudonyme et cliquer sur « Confirmer »",
+                "confirmText": "Êtes-vous sûr·e de vouloir désactiver votre compte ? Pour confirmer, veuillez écrire votre identifiant de connexion et cliquer sur « Confirmer »",
                 "description": "Désactiver votre compte vous empêchera de pouvoir vous connecter à nouveau, et les modérateurs ne pourront plus vous ajouter en tant que modérateur d'un marathon ou runner sur un planning. Toutes les données restent stockées, mais vos réseaux sociaux ne seront plus affichés sur les listes de candidatures ou les plannings. Ils restent toutefois liés à votre compte. Si vous souhaitez utiliser votre compte à nouveau dans le futur, veuillez contacter un administrateur.",
                 "title": "Désactiver ou supprimer votre compte"
             },
@@ -1112,25 +1105,25 @@
             },
             "username": {
                 "error": {
-                    "exists": "Ce pseudonyme existe déjà. Veuillez en choisir un autre ou vérifier que vous n'avez pas déjà un profil synchronisé avec un autre compte externe (Twitch ou Discord)",
-                    "max": "Le nom d'utilisateur est trop long, le maximum est de 32 caractères",
-                    "min": "Le nom d'utilisateur est trop court, au moins 3 caractères sont nécessaires",
-                    "pattern": "Le nom d'utilisateur doit être composé uniquement de caractères minuscules, de chiffres, de _ et de -",
-                    "required": "Le pseudonyme est requis"
+                    "exists": "Cet identifiant de connexion existe déjà. Veuillez en choisir un autre ou vérifier que vous n'avez pas déjà un profil synchronisé avec un autre compte externe (Twitch ou Discord)",
+                    "max": "L'identifiant de connexion est trop long, le maximum est de 32 caractères",
+                    "min": "L'identifiant de connexion est trop court, au moins 3 caractères sont nécessaires",
+                    "pattern": "L'identifiant de connexion doit être composé uniquement de caractères minuscules, de chiffres, de _ et de -",
+                    "required": "L'identifiant de connexion est requis"
                 },
-                "label": "Pseudonyme"
+                "label": "Identifiant de connexion"
             },
             "deletingAccount": {
                 "success": "Votre compte a été supprimé",
                 "btnCancel": "Annuler :)",
-                "btnDelete": "Supprimer le compte :(",
+                "btnDelete": "Supprimer compte :(",
                 "body": [
                     "Vous êtes sur le point de supprimer votre compte Oengus.",
                     "CETTE ACTION NE PEUT ÊTRE ANNULÉE !",
                     "Veuillez entrer votre nom de compte ci-dessous pour confirmer la suppression du compte."
                 ],
                 "title": "Attention !",
-                "settingsDeleteBtn": "Supprimer le compte"
+                "settingsDeleteBtn": "Supprimer compte"
             },
             "language": {
                 "placeholder": "Écrire pour trouver une langue",
@@ -1149,7 +1142,7 @@
                 "title": "Pronoms"
             },
             "connections": {
-                "username": "Pseudonyme ou similaire",
+                "username": "Identifiant de connexion ou similaire",
                 "select_platform": "Sélectionner une plateforme",
                 "visibility": "Visible publiquement",
                 "subtitle": "Ces liens vers les réseaux sociaux sont visibles publiquement sur votre profil.",
@@ -1185,17 +1178,7 @@
                 "enableButton": "Activer l'authentification à deux facteurs",
                 "disableButton": "Désactiver l'authentification à deux facteurs",
                 "label": "authentification à deux facteurs"
-            },
-            "savedGames": {
-                "label": "Visibilité des parties sauvegardées",
-                "yesOption": "Afficher mes parties sauvegardées publiquement"
             }
-        },
-        "savedGames": {
-            "header": "Paramètres de Speedruns sauvegardés",
-            "patronNudge": "Si vous soutenez Oengus sur patreon, vous pourrez ajouter et modifier vos speedruns sauvegardés ici",
-            "instruction1": "Les speedruns sauvegardés peuvent être mis en avant sur votre profil (activable dans les paramètres) et auto-complétés lors des soumissions aux événements.",
-            "cacheWarning": "Tout changement que vous faites ici peut prendre **24 heures** pour apparaître sur votre profil. Pas de panique, le remplissage automatique n'est pas affecté."
         }
     },
     "patrons": {
@@ -1530,10 +1513,7 @@
         "pl": "polonais",
         "da": "danois",
         "tr": "turc",
-        "pt": "portugais",
-        "br": "Breton",
-        "sq": "albanais",
-        "la": "latin"
+        "pt": "portugais"
     },
     "platform": {
         "NICO": "Nico",
@@ -1548,14 +1528,13 @@
         "SPEEDRUNCOM": "speedrun.com",
         "YOUTUBE": "YouTube",
         "MASTODON": "Mastodon",
-        "BLUESKY": "Bluesky",
-        "SPEEDRUNSME": "speedruns.me"
+        "BLUESKY": "Bluesky"
     },
     "news": {
         "title": "Actualités"
     },
     "announcements": {
-        "twitterRemoval": "Nous allons bientôt supprimer Twitter comme option de connexion. Assurez-vous que votre compte Twitch ou Discord est lié à votre compte Oengus pour éviter d'être bloqué."
+        "twitterRemoval": "Salut, nous allons bientôt supprimer Twitter comme option de connexion. Assurez-vous que votre compte Twitch ou Discord est lié à votre compte Oengus pour éviter d'être bloqué."
     },
     "auth": {
         "passwordReset": {
@@ -1565,9 +1544,9 @@
             "request": "Demander une réinitialisation de mot de passe",
             "submit": "Réinitialisez votre mot de passe !",
             "success": "Votre mot de passe a été réinitialisé. Vous pouvez maintenant vous connecter avec votre mot de passe.",
-            "requested": "Une demande de réinitialisation de mot de passe à été envoyé à votre adresse mail. Veuillez vérifier votre boîte de réception pour les instructions suivantes.",
+            "requested": "Une demande de réinitialisation de mot de passe à été envoyé à votre adresse mail. Veuillez vérifier votre mail pour les instructions suivantes.",
             "error": {
-                "PASSWORD_RESET_CODE_INVALID": "Votre code de réinitialisation de mot de passe est invalide, veuillez demander un nouveau mail.",
+                "PASSWORD_RESET_CODE_INVALID": "Votre jeton de réinitialisation de mot de passe est invalide, veuillez demander un nouveau mail.",
                 "EMAIL_VERIFICATION_REQUIRED": "Veuillez vérifier votre adresse e-mail avant d'utiliser cette fonctionnalité."
             }
         },
@@ -1576,7 +1555,7 @@
     "register": {
         "submit": "S'inscrire !",
         "login_hint": "Sinon, vous pouvez déjà {{login-link}} si vous voulez.",
-        "email_sent": "Nous avons envoyé un e-mail dans votre boîte de réception, veuillez cliquer sur le lien à l'intérieur pour vérifier votre adresse e-mail.",
+        "email_sent": "Nous vous avons envoyé un e-mail dans votre boîte mail, veuillez cliquer sur le lien à l'intérieur pour vérifier votre adresse e-mail.",
         "thank_you": "Merci !"
     },
     "editor": {
